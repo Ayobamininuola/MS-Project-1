@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Movie suggesters</title>
+</head>
+<body>
+   <header>
+     <div class="row">
+       <a href="index.html" class="col-sm-4">
+          <h1 class="logo">Movie Suggesters</h1>
+       </a>
+       <div class="col-sm-8">
+          <div class="row">
+            <div class="col" id="menu">
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="recommendations.html">Recommendations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="movies.html">Movies of the week</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="form.html">Recommend</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+     </div>
+   </header>
+   
+    <section>
+            <div class="container form-box">
+                <form>
+                    <div class="form-group">
+                      <label for="formGroupExampleInput">Movie title</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Movie Title">
+                    </div>
+                    <div class="form-group">
+                      <label for="formGroupExampleInput2">Movie App</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Movie App">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput3">Movie Genre</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Movie Genre">
+                      </div>
+                      <div class="form-group">
+                        <label for="formGroupExampleInput4">Rate(1-10)</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Rate(1-10)">
+                      </div>
+                      <input type="submit" action="submit" id="submit-button">
+
+                  </form>
+            </div>
+    </section>
+   
+</body>
+</html>

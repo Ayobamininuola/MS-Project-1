@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
     <link rel="stylesheet" href="Assets/css/style.css">
@@ -11,66 +11,49 @@
 </head>
 <body>
    <header>
-     <div class="row">
-       <a href="index.html" class="col-sm-4">
-          <h1 class="logo">Movie Suggesters</h1>
-       </a>
-       <div class="col-sm-8">
-          <div class="row">
-            <div class="col" id="menu">
-              <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="recommendations.html">Recommendations</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="movies.html">Movies of the week</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-     </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand logo" href="index.html">Movie Suggesters</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="recommendations.html">Recommendations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="movies.html">Movies of the week</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">Recommend</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
    </header>
    
     <section>
-      <div class="container sec-text">
+      <div class="container first-sect">
         <div>
-            <h3 class="sec-main-text">Grab you some popcorn and get comfy.<br> We suggest you enjoy!!</h3>
+            <h3 class="sec-main-text">Grab you some popcorn and get comfy.<br> We suggest, you enjoy!!</h3>
           </div>
           <div class="sec-sub-text-box">
-            <h3 class="sec-sub-text">Seen a movie worth the popcorn?</h3>
-            <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Recommend
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Recommend a movie</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Suggest</button>
-      </div>
-    </div>
-  </div>
-</div>
+            <h3 class="sec-sub-text">Seen a movie worth the popcorn? <br>
+             <a href="form.html" class="recommend-button"> 
+            <button>Recommend!</button>
+          </a> 
+            </h3>
+            
           </div>
       </div>
     </section>
-    <footer>
+   
+    <footer class="mt-auto">
       <div class="row">
         <a href="https://www.entertainmentdaily.co.uk/news/" target="__blank" class="col-sm-4">
           <h2 class="name">Entertainment Gossip</h2>
