@@ -1,47 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US" class="h-100 movie-html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
     <link rel="stylesheet" href="Assets/css/style.css">
     <title>Movie suggesters</title>
 </head>
-<body>
-   <header>
-     <div class="row">
-       <a href="index.html" class="col-sm-4">
-          <h1 class="logo">Movie Suggesters</h1>
-       </a>
-       <div class="col-sm-8">
-          <div class="row">
-            <div class="col" id="menu">
-              <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="recommendations.html">Recommendations</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="movies.html">Movies of the week</a>
-                </li>
-              </ul>
+<body class="h-100 d-flex flex-column">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand logo" href="index.html">Movie Suggesters</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="recommendations.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Recommendations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="movie-app.html">Movie App</a>
+              <a class="dropdown-item" href="genres.html">Genres</a>
+              <a class="dropdown-item" href="production-year.html">Production year</a>
             </div>
-          </div>
-        </div>
-     </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="movies.html">Movies of the week</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">Recommend</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
    </header>
    
-    <section>
+   <section>
+    <div class="col" id="videos">
+      <div class="video-col-heading">
+        <h2>
+          Movies of the week
+        </h2>
+      </div>
+      <div class="container-fluid video-1">
+        <video width="450px" height="500px" controls>
+          <source src="Assets/videos/black-widow-trailer-legacy_h480p (1).mov">
+          Your Browser does not support video
+        </video>
+        <div class="video-1-details">
+          <h4>Movie Title</h4>
+          <p>Black Widow</p><hr>
 
-    </section>
-    <footer>
-      <div class="row">
-        <a href="https://www.entertainmentdaily.co.uk/news/" target="__blank" class="col-sm-4">
-          <h3 class="name">Entertainment Gossip</h3>
+          <h4>Production year</h4>
+          <p>2021</p><hr> 
+          <h4>Casts</h4>
+          <pre>Scarlett Johansson       Florence Pugh       David Harbour</pre> <hr>
+        </div>
+      </div>
+      <div class="container-fluid video-2">
+        <video width="450px" height="500px" controls>
+          <source src="Assets/videos/peter-rabbit-2-final-trailer_h720p.mov">
+          Your Browser does not support video
+        </video>
+        <div class="video-1-details">
+          <h4>Movie Title</h4>
+          <p>Peter Rabbit 2</p><hr>
+
+          <h4>Production year</h4>
+          <p>2021</p><hr> 
+          <h4>Casts</h4>
+          <pre>Rose Bryne       Domhnall Gleeson        David Oyelowo       James Corden as Peter Rabbit</pre> <hr>
+        </div>
+      </div>
+      <div class="container-fluid video-3">
+        <video width="450px" height="500px" controls>
+          <source src="Assets/videos/helicoptermom-tlr1_h480p.mov">
+          Your Browser does not support video
+        </video>
+        <div class="video-1-details">
+          <h4>Movie Title</h4>
+          <p>Helicopter Mom</p><hr>
+
+          <h4>Production year</h4>
+          <p>2014</p><hr> 
+          <h4>Casts</h4>
+          <pre>Nia Vardalos       Jason Dolley        	Mark Boone Junior       Devon Werkheiser</pre> <hr>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+    <footer class="mt-auto">
+      <div class="row footer-box container-fluid">
+        <a href="https://www.entertainmentdaily.co.uk/news/" target="__blank" class="col-sm-4 text-decoration-none">
+          <h2 class="name">Entertainment Gossip</h2>
         </a>
         <div class="col-sm-8">
           <div class="row">
