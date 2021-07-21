@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en-US" class="h-100 movie-app-html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Movie suggesters</title>
+</head>
+<body class="h-100 d-flex flex-column">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand logo" href="index.html">Movie Suggesters</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Recommendations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="movie-app.html">Movie App</a>
+              <a class="dropdown-item" href="genres.html">Genres</a>
+              <a class="dropdown-item" href="production-year.html">Production year</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="movies.html">Movies of the week</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">Recommend</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+   </header>
+
+   <section>
+     <div class="container-fluid netflix-box">
+      <div class="netflix-box-text">
+        <h4>Watch on Netflix</h4>
+      </div>
+        <div class="card mb-3" style="max-width: 100vw;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <a href="https://www.netflix.com/title/81350434" target="blank">
+              <img src="Assets/images/Penguin_Bloom_poster (1).png" alt="Penguin_Bloom_poster"></a>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Penguin Bloom</h4>
+                <p class="card-text">Based on the best-selling book of the same name, the film tells the story of Sam Bloom (Academy Award® nominated Naomi Watts) a young mother whose world is turned upside down after a shocking, near-fatal accident leaves her paralyzed</p><hr>
+                <h4 class="card-title">Casts</h4>
+                <pre>Naomi Watts    Andrew Lincoln    Jacki Weaver</pre><hr>
+                <h4 class="card-title">Production Year</h4>
+                <p class="card-text">2021</p><hr>
+                <h4 class="card-title">Duration</h4>
+                <p class="card-text">1hr 35minutes</p><hr>
+                <p class="watch-link">
+                   For More details and to Watch
+                  <a href="https://www.netflix.com/title/81350434" target="blank">Click Here.</a> (Subscription required)
+                </p><hr>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 100vw;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <a href="https://www.netflix.com/title/81435227" target="blank">
+              <img src="Assets/images/Fatherhood_poster (1).jpg" alt="Fatherhood movie poster"></a>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Fatherhood</h4>
+                <p class="card-text">
+                  Story of a single father that struggles but determines to bring up his daughter
+                   following the death of his wife just the second day after the birth of their daughter 
+                </p><hr>
+                <h4 class="card-title">Casts</h4>
+                <pre>Kevin Hart   Alfre Woodard   Lil Rel Howery</pre><hr>
+                <h4 class="card-title">Production Year</h4>
+                <p class="card-text">2021</p><hr>
+                <h4 class="card-title">Duration</h4>
+                <p class="card-text">1hr 50minutes</p><hr>
+                <p class="watch-link">
+                   For More details and to Watch
+                  <a href="https://www.netflix.com/title/81435227" target="blank">Click Here.</a> (Subscription required)
+                </p><hr>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 100vw;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <a href="https://www.netflix.com/gb/title/81427442" target="blank">
+            <img src="Assets/images/The_Water_Man_film_poster (1).png" alt="Waterman movie poster"></a>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title">The Waterman</h4>
+              <p class="card-text">
+                A young boy determines to save his dying mother and embarked on a journey searching for the
+                rumoured powerful being that has the power to save the dying. 
+              </p><hr>
+              <h4 class="card-title">Casts</h4>
+              <pre>David Oyelowo    Rosario Dawson    Lonnie Chavis</pre><hr>
+              <h4 class="card-title">Production Year</h4>
+              <p class="card-text">2021</p><hr>
+              <h4 class="card-title">Duration</h4>
+              <p class="card-text">1hr 33minutes</p><hr>
+              <p class="watch-link">
+                 For More details and to Watch
+                <a href="https://www.netflix.com/gb/title/81427442" target="blank">Click Here.</a> (Subscription required)
+              </p><hr>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 100vw;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <a href="https://www.netflix.com/gb/title/81009845" target="blank">
+          <img src="Assets/images/Rust_Creek_poster (1).jpg" alt="Rust Creek movie poster"></a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4 class="card-title">Rust Creek</h4>
+            <p class="card-text">
+            A wrong turn in the woods becomes a fight for her life when a career-seeking college 
+            student runs into two outlaw brothers looking to cook up trouble. 
+            </p><hr>
+            <h4 class="card-title">Casts</h4>
+            <pre>Hermione Corfield    Jay Paulson    Sean O'Bryan</pre><hr>
+            <h4 class="card-title">Production Year</h4>
+            <p class="card-text">2018</p><hr>
+            <h4 class="card-title">Duration</h4>
+            <p class="card-text">1hr 48minutes</p><hr>
+            <p class="watch-link">
+               For More details and to Watch
+              <a href="https://www.netflix.com/gb/title/81009845" target="blank">Click Here.</a> (Subscription required)
+            </p><hr>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 100vw;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <a href="https://www.netflix.com/gb/title/81153694" target="blank">
+        <img src="Assets/images/Wish_Dragon (1).png" alt="Wish dragon movie poster"></a>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 class="card-title">Wish Dragon</h4>
+          <p class="card-text">
+            Determined teen Din is longing to reconnect with his childhood best friend when 
+            he meets a wish-granting dragon who shows him the magic of possibilities. 
+          </p><hr>
+          <h4 class="card-title">Casts</h4>
+          <pre>Jimmy Wong   John Cho    Constance Wu</pre><hr>
+          <h4 class="card-title">Production Year</h4>
+          <p class="card-text">2021</p><hr>
+          <h4 class="card-title">Duration</h4>
+          <p class="card-text">1hr 42minutes</p><hr>
+          <p class="watch-link">
+             For More details and to Watch
+            <a href="https://www.netflix.com/gb/title/81153694" target="blank">Click Here.</a> (Subscription required)
+          </p><hr>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 100vw;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <a href="https://www.netflix.com/gb/title/81438809" target="blank">
+      <img src="Assets/images/Major_Grom-_Plague_Doctor_poster (1).jpg" alt="Major Grom movie poster"></a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h4 class="card-title">Major Grom: Plague Doctor</h4>
+        <p class="card-text">
+          When a masked vigilante’s killing spree throws a city into chaos, a renegade detective and his 
+          rookie partner are the only ones who can stop it.
+        </p><hr>
+        <h4 class="card-title">Casts</h4>
+        <pre>Tikhon Zhiznevskiy   Lyubov Aksyonova    Alexei Maklakov</pre><hr>
+        <h4 class="card-title">Production Year</h4>
+        <p class="card-text">2021</p><hr>
+        <h4 class="card-title">Duration</h4>
+        <p class="card-text">2hrs 18minutes</p><hr>
+        <p class="watch-link">
+           For More details and to Watch
+          <a href="https://www.netflix.com/gb/title/81438809" target="blank">Click Here.</a> (Subscription required)
+        </p><hr>
+        </div>
+    </div>
+  </div>
+</div>
+        </div>
+    
+   </section>
+   
+   <section>
+    <div class="container-fluid netflix-box">
+     <div class="netflix-box-text">
+       <h4>Watch on Disney+</h4>
+     </div>
+       <div class="card mb-3" style="max-width: 100vw;">
+         <div class="row no-gutters">
+           <div class="col-md-4">
+             <a href="https://www.netflix.com/title/81350434" target="blank">
+             <img src="Assets/images/Raya_and_the_Last_Dragon (1).png" alt="Raya and the last Dragon poster"></a>
+           </div>
+           <div class="col-md-8">
+             <div class="card-body">
+               <h4 class="card-title">Raya and the last the dragon</h4>
+               <p class="card-text">Based on the best-selling book of the same name, the film tells the story of Sam Bloom (Academy Award® nominated Naomi Watts) a young mother whose world is turned upside down after a shocking, near-fatal accident leaves her paralyzed</p><hr>
+               <h4 class="card-title">Casts</h4>
+               <pre>Naomi Watts    Andrew Lincoln    Jacki Weaver</pre><hr>
+               <h4 class="card-title">Production Year</h4>
+               <p class="card-text">2021</p><hr>
+               <h4 class="card-title">Duration</h4>
+               <p class="card-text">1hr 35minutes</p><hr>
+               <p class="watch-link">
+                  For More details and to Watch
+                 <a href="https://www.netflix.com/title/81350434" target="blank">Click Here.</a> (Subscription required)
+               </p><hr>
+               </div>
+           </div>
+         </div>
+       </div>
+       <div class="card mb-3" style="max-width: 100vw;">
+         <div class="row no-gutters">
+           <div class="col-md-4">
+             <a href="https://www.netflix.com/title/81435227" target="blank">
+             <img src="Assets/images/Fatherhood_poster (1).jpg" alt="Fatherhood movie poster"></a>
+           </div>
+           <div class="col-md-8">
+             <div class="card-body">
+               <h4 class="card-title">Fatherhood</h4>
+               <p class="card-text">
+                 Story of a single father that struggles but determines to bring up his daughter
+                  following the death of his wife just the second day after the birth of their daughter 
+               </p><hr>
+               <h4 class="card-title">Casts</h4>
+               <pre>Kevin Hart   Alfre Woodard   Lil Rel Howery</pre><hr>
+               <h4 class="card-title">Production Year</h4>
+               <p class="card-text">2021</p><hr>
+               <h4 class="card-title">Duration</h4>
+               <p class="card-text">1hr 50minutes</p><hr>
+               <p class="watch-link">
+                  For More details and to Watch
+                 <a href="https://www.netflix.com/title/81435227" target="blank">Click Here.</a> (Subscription required)
+               </p><hr>
+               </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="card mb-3" style="max-width: 100vw;">
+       <div class="row no-gutters">
+         <div class="col-md-4">
+           <a href="https://www.netflix.com/gb/title/81427442" target="blank">
+           <img src="Assets/images/The_Water_Man_film_poster (1).png" alt="Waterman movie poster"></a>
+         </div>
+         <div class="col-md-8">
+           <div class="card-body">
+             <h4 class="card-title">The Waterman</h4>
+             <p class="card-text">
+               A young boy determines to save his dying mother and embarked on a journey searching for the
+               rumoured powerful being that has the power to save the dying. 
+             </p><hr>
+             <h4 class="card-title">Casts</h4>
+             <pre>David Oyelowo    Rosario Dawson    Lonnie Chavis</pre><hr>
+             <h4 class="card-title">Production Year</h4>
+             <p class="card-text">2021</p><hr>
+             <h4 class="card-title">Duration</h4>
+             <p class="card-text">1hr 33minutes</p><hr>
+             <p class="watch-link">
+                For More details and to Watch
+               <a href="https://www.netflix.com/gb/title/81427442" target="blank">Click Here.</a> (Subscription required)
+             </p><hr>
+             </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="card mb-3" style="max-width: 100vw;">
+     <div class="row no-gutters">
+       <div class="col-md-4">
+         <a href="https://www.netflix.com/gb/title/81009845" target="blank">
+         <img src="Assets/images/Rust_Creek_poster (1).jpg" alt="Rust Creek movie poster"></a>
+       </div>
+       <div class="col-md-8">
+         <div class="card-body">
+           <h4 class="card-title">Rust Creek</h4>
+           <p class="card-text">
+           A wrong turn in the woods becomes a fight for her life when a career-seeking college 
+           student runs into two outlaw brothers looking to cook up trouble. 
+           </p><hr>
+           <h4 class="card-title">Casts</h4>
+           <pre>Hermione Corfield    Jay Paulson    Sean O'Bryan</pre><hr>
+           <h4 class="card-title">Production Year</h4>
+           <p class="card-text">2018</p><hr>
+           <h4 class="card-title">Duration</h4>
+           <p class="card-text">1hr 48minutes</p><hr>
+           <p class="watch-link">
+              For More details and to Watch
+             <a href="https://www.netflix.com/gb/title/81009845" target="blank">Click Here.</a> (Subscription required)
+           </p><hr>
+           </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="card mb-3" style="max-width: 100vw;">
+   <div class="row no-gutters">
+     <div class="col-md-4">
+       <a href="https://www.netflix.com/gb/title/81153694" target="blank">
+       <img src="Assets/images/Wish_Dragon (1).png" alt="Wish dragon movie poster"></a>
+     </div>
+     <div class="col-md-8">
+       <div class="card-body">
+         <h4 class="card-title">Wish Dragon</h4>
+         <p class="card-text">
+           Determined teen Din is longing to reconnect with his childhood best friend when 
+           he meets a wish-granting dragon who shows him the magic of possibilities. 
+         </p><hr>
+         <h4 class="card-title">Casts</h4>
+         <pre>Jimmy Wong   John Cho    Constance Wu</pre><hr>
+         <h4 class="card-title">Production Year</h4>
+         <p class="card-text">2021</p><hr>
+         <h4 class="card-title">Duration</h4>
+         <p class="card-text">1hr 42minutes</p><hr>
+         <p class="watch-link">
+            For More details and to Watch
+           <a href="https://www.netflix.com/gb/title/81153694" target="blank">Click Here.</a> (Subscription required)
+         </p><hr>
+         </div>
+     </div>
+   </div>
+ </div>
+</div>
+<div class="card mb-3" style="max-width: 100vw;">
+ <div class="row no-gutters">
+   <div class="col-md-4">
+     <a href="https://www.netflix.com/gb/title/81438809" target="blank">
+     <img src="Assets/images/Major_Grom-_Plague_Doctor_poster (1).jpg" alt="Major Grom movie poster"></a>
+   </div>
+   <div class="col-md-8">
+     <div class="card-body">
+       <h4 class="card-title">Major Grom: Plague Doctor</h4>
+       <p class="card-text">
+         When a masked vigilante’s killing spree throws a city into chaos, a renegade detective and his 
+         rookie partner are the only ones who can stop it.
+       </p><hr>
+       <h4 class="card-title">Casts</h4>
+       <pre>Tikhon Zhiznevskiy   Lyubov Aksyonova    Alexei Maklakov</pre><hr>
+       <h4 class="card-title">Production Year</h4>
+       <p class="card-text">2021</p><hr>
+       <h4 class="card-title">Duration</h4>
+       <p class="card-text">2hrs 18minutes</p><hr>
+       <p class="watch-link">
+          For More details and to Watch
+         <a href="https://www.netflix.com/gb/title/81438809" target="blank">Click Here.</a> (Subscription required)
+       </p><hr>
+       </div>
+   </div>
+ </div>
+</div>
+       </div>
+   
+  </section>
+
+  <section>
+    <div class="container-fluid netflix-box">
+     <div class="netflix-box-text">
+       <h4>Watch on Amazon prime video</h4>
+     </div>
+       <div class="card mb-3" style="max-width: 100vw;">
+         <div class="row no-gutters">
+           <div class="col-md-4">
+             <a href="https://www.amazon.co.uk/Greenland-Gerard-Butler/dp/B08TDWVNKT" target="blank">
+             <img src="Assets/images/Greenland_(film) (1).png" alt="Greenland movie poster"></a>
+           </div>
+           <div class="col-md-8">
+             <div class="card-body">
+               <h4 class="card-title">Green land</h4>
+               <p class="card-text"> 
+                With comets hitting the earth and just a handful of selected people to be transported to a safe haven.
+                A family struggles to get on even after been selected because of their child's medical condition.
+               </p><hr>
+               <h4 class="card-title">Casts</h4>
+               <pre>Gerard Butler   Morena Baccarin    Scott Glenn</pre><hr>
+               <h4 class="card-title">Production Year</h4>
+               <p class="card-text">2020</p><hr>
+               <h4 class="card-title">Duration</h4>
+               <p class="card-text">1hr 59minutes</p><hr>
+               <p class="watch-link">
+                  For More details and to Watch
+                 <a href="https://www.amazon.co.uk/Greenland-Gerard-Butler/dp/B08TDWVNKT" target="blank">Click Here.</a> (Subscription required)
+               </p><hr>
+               </div>
+           </div>
+         </div>
+       </div>
+       <div class="card mb-3" style="max-width: 100vw;">
+         <div class="row no-gutters">
+           <div class="col-md-4">
+             <a href="https://www.amazon.co.uk/Manchester-Sea-Casey-Affleck/dp/B08XLZ5XVF/ref=sr_1_1?crid=1QQCDP6J6Z6DU&dchild=1&keywords=manchester+by+the+sea&qid=1626864080&s=instant-video&sprefix=manchester+%2Cinstant-video%2C180&sr=1-1" target="blank">
+             <img src="Assets/images/Manchester_by_the_Sea (1).jpg" alt="Manchester by the sea poster"></a>
+           </div>
+           <div class="col-md-8">
+             <div class="card-body">
+               <h4 class="card-title">Manchester by the sea</h4>
+               <p class="card-text">
+                 Story of a depressed uncle that found himself as a guardian to his teen nephew following the death of his father.
+               </p><hr>
+               <h4 class="card-title">Casts</h4>
+               <pre>Casey Affleck   Michelle Williams    Kyle Chandler</pre><hr>
+               <h4 class="card-title">Production Year</h4>
+               <p class="card-text">2016</p><hr>
+               <h4 class="card-title">Duration</h4>
+               <p class="card-text">2hr 17minutes</p><hr>
+               <p class="watch-link">
+                  For More details and to Watch
+                 <a href="https://www.amazon.co.uk/Manchester-Sea-Casey-Affleck/dp/B08XLZ5XVF/ref=sr_1_1?crid=1QQCDP6J6Z6DU&dchild=1&keywords=manchester+by+the+sea&qid=1626864080&s=instant-video&sprefix=manchester+%2Cinstant-video%2C180&sr=1-1" target="blank">Click Here.</a> (Subscription required)
+               </p><hr>
+               </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="card mb-3" style="max-width: 100vw;">
+       <div class="row no-gutters">
+         <div class="col-md-4">
+           <a href="https://www.amazon.co.uk/Sound-Metal-Riz-Ahmed/dp/B08L4X5M5D/ref=sr_1_1?dchild=1&keywords=sound+of+metal&qid=1626865777&s=instant-video&sr=1-1" target="blank">
+           <img src="Assets/images/Sound_of_Metal_poster (1).jpeg" alt="Sound of metal movie poster"></a>
+         </div>
+         <div class="col-md-8">
+           <div class="card-body">
+             <h4 class="card-title">Sound of metal</h4>
+             <p class="card-text">
+               He can drum out based on the sound received and happy with the sound he made. A drummer's life was thrown into
+               freefall when he started losind his hearing and was told it will get worse. 
+             </p><hr>
+             <h4 class="card-title">Casts</h4>
+             <pre>Riz Ahmed   Olivia Cooke   Paul Raci</pre><hr>
+             <h4 class="card-title">Production Year</h4>
+             <p class="card-text">2020</p><hr>
+             <h4 class="card-title">Duration</h4>
+             <p class="card-text">2h</p><hr>
+             <p class="watch-link">
+                For More details and to Watch
+               <a href="https://www.amazon.co.uk/Sound-Metal-Riz-Ahmed/dp/B08L4X5M5D/ref=sr_1_1?dchild=1&keywords=sound+of+metal&qid=1626865777&s=instant-video&sr=1-1" target="blank">Click Here.</a> (Subscription required)
+             </p><hr>
+             </div>
+         </div>
+       </div>
+     </div>
+  
+   <div class="card mb-3" style="max-width: 100vw;">
+     <div class="row no-gutters">
+       <div class="col-md-4">
+         <a href="https://www.amazon.co.uk/Sylvies-Love-Tessa-Thompson/dp/B08L47TZB3/ref=sr_1_1?crid=Q6JWB0C6CKLE&dchild=1&keywords=sylvie+s+love+amazon+prime&qid=1626866487&s=instant-video&sprefix=sylvie%27s+%2Cinstant-video%2C1053&sr=1-1" target="blank">
+         <img src="Assets/images/Sylvie's_Love (1).png" alt="sylvie's love movie poster"></a>
+       </div>
+       <div class="col-md-8">
+         <div class="card-body">
+           <h4 class="card-title">Sylvie's love</h4>
+           <p class="card-text">
+           When a young woman meets an aspiring saxophonist in her father’s record shop in 1950s Harlem, 
+           their love ignites a sweeping romance that transcends changing times, geography, and professional 
+           success.
+           </p><hr>
+           <h4 class="card-title">Casts</h4>
+           <pre>Tessa Thompson    Nnamdi Asomugha   Eva Longoria</pre><hr>
+           <h4 class="card-title">Production Year</h4>
+           <p class="card-text">2020</p><hr>
+           <h4 class="card-title">Duration</h4>
+           <p class="card-text">1hr 56minutes</p><hr>
+           <p class="watch-link">
+              For More details and to Watch
+             <a href="https://www.amazon.co.uk/Sylvies-Love-Tessa-Thompson/dp/B08L47TZB3/ref=sr_1_1?crid=Q6JWB0C6CKLE&dchild=1&keywords=sylvie+s+love+amazon+prime&qid=1626866487&s=instant-video&sprefix=sylvie%27s+%2Cinstant-video%2C1053&sr=1-1" target="blank">Click Here.</a> (Subscription required)
+           </p><hr>
+           </div>
+       </div>
+     </div>
+   </div>
+ 
+ <div class="card mb-3" style="max-width: 100vw;">
+   <div class="row no-gutters">
+     <div class="col-md-4">
+       <a href="https://www.amazon.co.uk/Escape-Pretoria-Daniel-Radcliffe/dp/B08X6VPYP8/ref=sr_1_1?dchild=1&keywords=escape+from+pretoria&qid=1626866830&s=instant-video&sr=1-1" target="blank">
+       <img src="Assets/images/Escape_from_Pretoria_film_poster (1).png" alt="escape from pretoria movie poster"></a>
+     </div>
+     <div class="col-md-8">
+       <div class="card-body">
+         <h4 class="card-title">escape from pretoria</h4>
+         <p class="card-text">
+           Based on a true life story. A convict plans his escape from one of the world's maximum security prison. 
+         </p><hr>
+         <h4 class="card-title">Casts</h4>
+         <pre>Daniel Radcliffe    Ian Hart    Daniel Webber</pre><hr>
+         <h4 class="card-title">Production Year</h4>
+         <p class="card-text">2021</p><hr>
+         <h4 class="card-title">Duration</h4>
+         <p class="card-text">1hr 46minutes</p><hr>
+         <p class="watch-link">
+            For More details and to Watch
+           <a href="https://www.amazon.co.uk/Escape-Pretoria-Daniel-Radcliffe/dp/B08X6VPYP8/ref=sr_1_1?dchild=1&keywords=escape+from+pretoria&qid=1626866830&s=instant-video&sr=1-1" target="blank">Click Here.</a> (Subscription required)
+         </p><hr>
+         </div>
+     </div>
+   </div>
+ </div>
+   
+  </section>
+    <footer class="mt-auto">
+      <div class="row footer-box container-fluid">
+        <a href="https://www.entertainmentdaily.co.uk/news/" target="__blank" class="col-sm-4 text-decoration-none">
+          <h2 class="name">Entertainment Gossip</h2>
+        </a>
+        <div class="col-sm-8">
+          <div class="row">
+            <div class="col">
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/" target="__blank">
+                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/" target="__blank">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.twitter.com/" target="__blank">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/" target="__blank">
+                <i class="fab fa-youtube"aria-hidden="true"></i>
+                <span class="sr-only">Youtube</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      </div>
+    </footer>
+</body>
+</html>
