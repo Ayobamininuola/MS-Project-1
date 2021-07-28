@@ -57,7 +57,14 @@ section {
     background-color: rgba(0,0,0,0.6);
 }    
 
+.movie-app-html{
+    background-color: black;
+}
 
+
+.card {
+   background-color: inherit;
+}
 
 
 /*----------------------------------------------------------Header*/ 
@@ -85,15 +92,16 @@ section {
         border-radius: 2px;
     }
 
-.navbar-collapse {
-    height: 200px;
-    width:250px;
-    margin: 0;
-    border-radius: 10px;
-    padding: 4px;
-    display:block;
+    .navbar-collapse {
+        height: auto;
+        width:250px;
+        margin: 0;
+        border-radius:2px;
+        padding: 4px;
+        display:block;
+        background-color: inherit;
     
-}
+    }
 
 .nav-item{
     color: #FFA69E;
@@ -246,7 +254,7 @@ button:hover {
 
 /*----------------------------------------------------------Movies of the week*/
     .movie-html {
-        width:100%;
+    width:100%;
     height: 100%;
     background-image: url(../images/pexels-suzy-hazelwood-1629236\ \(1\).jpg);
     background-color: #000;
@@ -271,14 +279,15 @@ button:hover {
     h4{
         font-family: "roboto", sans-serif;
         font-weight: medium;
-        font-size: 20px;
+        font-size: 25px;
         color:#fff; 
+        
     }
 
     p, pre{
         font-family: "roboto", sans-serif;
-        font-weight: 500;
-        font-size: 20px;
+        font-weight: 400;
+        font-size: 15px;
         color:#E5F4E3;
     }
 
@@ -288,6 +297,36 @@ button:hover {
         border-top-color: #fff;
     }
 
+
+    /*----------------------------------------------------------Recommendations (movie app)*/
+    .card-body h4{
+        text-transform: capitalize;
+    }
+
+    
+
+    .netflix-box-text{
+        margin-top:20px;
+        margin-bottom: 25px;
+    }
+    
+    .netflix-box-text h4{
+        font-family: "Satisfy", sans-serif;
+        color:#5DA9E9;
+        text-align: center;
+        font-size: 40px;
+        
+    }
+
+   .card-title {
+    font-family: "roboto", sans-serif;
+    font-weight: medium;
+    font-size: 25px;
+   }
+
+   .watch-link {
+       font-family: "satisfy", sans-serif;
+   }
 
     /*----------------------------------------------------------media Queries*/
     @media screen and (max-width: 400px) {
