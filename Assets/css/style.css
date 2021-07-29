@@ -41,10 +41,6 @@ h1, h2 {
     color: #1E96FC;
 }
 
-#menu li a {
-    color: aliceblue;
-}
-
 .sec-sub-text-box{
     background-color: rgba(9, 9, 9, 0.55);
 }
@@ -61,11 +57,13 @@ section {
     background-color: black;
 }
 
-
 .card {
    background-color: inherit;
 }
 
+.footer-box{
+    background-color: #f8f9fa;
+}
 
 /*----------------------------------------------------------Header*/ 
 
@@ -93,7 +91,7 @@ section {
 
     .navbar-collapse {
         height: auto;
-        width:250px;
+        width:100%;
         margin: 0;
         border-radius:2px;
         padding: 4px;
@@ -101,13 +99,6 @@ section {
         background-color: inherit;
     
     }
-
-.nav-item{
-    color: #FFA69E;
-}
-
-
-
 
 /*----------------------------------------------------------Footer*/
 
@@ -123,7 +114,6 @@ footer {
 .footer-box{
     margin: 0;
     min-height: 80px;
-    background-color: #f8f9fa;
 }
 
 
@@ -152,9 +142,14 @@ footer {
         font-size: 16px;
         text-align: right;
         color: #F7821B;
+        transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
      }
 
- 
+ .social-links li a i:hover{
+     font-size: 24px;
+ }
 
 
 /*----------------------------------------------------------Section*/
@@ -192,24 +187,26 @@ footer {
     margin-right: 30px;
     margin-left: 30px;
     margin-top: 50px;
+    margin-bottom: 40px;
     text-transform: capitalize;
 }
 
-button {
+.recommend-button {
     margin-top: 20px;
+    margin-left: 65px;
     padding:12px;
     border-radius: 10px;
-    background-color: #fff;
-    color: #2364AA; 
+    background-color: #F7821B;
+    color: #fff; 
 }
 
-button:hover {
-    background-color:#2364AA;
-    color:#fff;
+.recommend-button:hover {
+    background-color:#fff;
+    color:#F7821B;
 }
 .recommend-button {
     font-size: 12px;
-   margin-left: 35px;
+   
 }
 
 
