@@ -14,11 +14,17 @@
     
 }
 
+body{
+    position: relative;
+}
+
+section{
+    margin-top:5%;
+}
 
 header {
     margin: 0;
 }
-
 
 h1, h2 {
     white-space:nowrap;
@@ -80,16 +86,15 @@ section {
     font-size: 1.21rem;
     font-weight: bold;
     letter-spacing:4px;
-    
-    }   
+}   
  
-    .navbar-toggler{
+.navbar-toggler{
         font-size: 1rem;
         padding: 2px;
         border-radius: 2px;
     }
 
-    .navbar-collapse {
+.navbar-collapse {
         height: auto;
         width:100%;
         margin: 0;
@@ -98,6 +103,10 @@ section {
         display:block;
         background-color: inherit;
     
+    }
+
+.active:hover{
+        color:#1E96FC;
     }
 
 /*----------------------------------------------------------Footer*/
@@ -209,8 +218,6 @@ footer {
    
 }
 
-
-
 /*----------------------------------------------------------Form*/
 
 .form-html {
@@ -248,15 +255,11 @@ footer {
 }
 
 
-
-
-
-
 /*----------------------------------------------------------Movies of the week*/
-    .movie-html {
+.movie-html {
     width:100%;
     height: 100%;
-    background-image: url(../images/pexels-suzy-hazelwood-1629236\ \(1\).jpg);
+    background-image: url(../images/pexels-joão-vítor-heinrichs-1787044\ \(1\).jpg);
     background-color: #000;
     background-position: center center;
     background-attachment: fixed;
@@ -265,22 +268,20 @@ footer {
     background-size: cover;
 }
 
-
-    .video-col-heading {
+.video-col-heading {
         font-family: "Satisfy", sans-serif;
         font-size: 24rem;
         font-weight: 400;
         color:#E5F4E3;
         text-align:center;
+        margin-top: 35px;
     }
 
-    
-
-    h4{
+h4{
         font-family: "roboto", sans-serif;
         font-weight: medium;
         font-size: 25px;
-        color:#fff; 
+        color:#1E96FC; 
         
     }
 
@@ -297,20 +298,30 @@ footer {
         border-top-color: #fff;
     }
 
-
+   
     /*----------------------------------------------------------Recommendations (movie app)*/
-    .card-body h4{
+.card-body{
+    padding-top:.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.card img {
+    max-width:300px;
+    max-height:300px;
+    padding: 1.25rem;
+}
+
+.card-body h4{
         text-transform: capitalize;
     }
 
-    
-
-    .netflix-box-text{
-        margin-top:20px;
+.netflix-box-text{
+        margin-top:50px;
         margin-bottom: 25px;
     }
     
-    .netflix-box-text h4{
+.netflix-box-text h4{
         font-family: "Satisfy", sans-serif;
         color:#5DA9E9;
         text-align: center;
@@ -318,16 +329,30 @@ footer {
         
     }
 
-   .card-title {
+.card-title {
     font-family: "roboto", sans-serif;
     font-weight: medium;
     font-size: 25px;
    }
 
-   .watch-link {
+.watch-link {
        font-family: "satisfy", sans-serif;
+       
    }
 
+   .watch-link a {
+       color:#F7821B;
+   }
+
+   #list-example {
+    position: sticky;
+    margin-top: 0;
+    top: 50px;
+    z-index: 2;
+    max-width: fit-content;
+    background-color: #f8f9fa;
+    display: inline-flex;
+    }
     /*----------------------------------------------------------media Queries*/
     @media screen and (max-width: 400px) {
         .form-box {
