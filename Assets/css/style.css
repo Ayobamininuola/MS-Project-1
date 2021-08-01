@@ -71,7 +71,21 @@ section {
     background-color: #f8f9fa;
 }
 
+.list-group-item{
+    background-color: #f8f9fa;
+}
+
 /*----------------------------------------------------------Header*/ 
+.active a{
+    color: #fff;
+    background-color: #1E96FC;
+    border-color: #1E96FC;
+    border-radius: 3px;
+}
+
+.active a:hover{
+    color:#000;
+}
 
 .navbar {
     height: 60px;
@@ -105,10 +119,6 @@ section {
         display:block;
         background-color: inherit;
     
-    }
-
-.active:hover{
-        color:#1E96FC;
     }
 
 /*----------------------------------------------------------Footer*/
@@ -356,9 +366,9 @@ h4{
     top: 50px;
     z-index: 2;
     max-width: fit-content;
-    background-color: #f8f9fa;
     display: inline-flex;
     }
+
     /*----------------------------------------------------------media Queries*/
     @media screen and (max-width: 400px) {
         .form-box {
