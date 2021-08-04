@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="Assets/css/style.css">
     <title>Movie suggesters</title>
 </head>
-<body class="h-100 d-flex flex-column">
+<body class="d-flex flex-column">
   <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand logo" href="index.html">Movie Suggesters</a>
@@ -47,8 +47,8 @@
    </header>
    
     <section>
-            <div class="container-fluid form-box">
-                <form>
+            <div class="container-fluid d-flex form-box">
+                <form class="flex-grow-1">
                     <div class="form-group">
                       <label for="formGroupExampleInput">Movie title</label>
                       <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Movie Title">
@@ -63,9 +63,10 @@
                       </div>
                       <div class="form-group">
                         <label for="formGroupExampleInput4">Rate(1-10)</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Rate(1-10)">
+                        <input type="number" class="form-control" id="formGroupExampleInput4" placeholder="Rate(1-10)">
                       </div>
-                      <input type="submit" action="submit" id="submit-button" value="Recommend">
+                      <button type="submit" class="btn btn-primary">Recommend</button>
+                       
 
                   </form>
             </div>
