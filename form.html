@@ -51,21 +51,67 @@
                 <form class="flex-grow-1">
                     <div class="form-group">
                       <label for="formGroupExampleInput">Movie title</label>
-                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Movie Title">
+                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Movie Title" required>
                     </div>
                     <div class="form-group">
-                      <label for="formGroupExampleInput2">Movie App</label>
-                      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Movie App">
+                      <label for="formGroupExampleInput2">Movie App</label><br>
+                       <!------------------------------------- Movie App options ------------------>
+                      <select class="movie-app-options">
+                        <option selected>Choose one</option>
+                        <option>Amazon Prime video</option>
+                        <option>Disney plus</option>
+                        <option>Netflix</option>
+                        <option>HBOmax</option>
+                        <option>Hulu</option>
+                        <option>Tubi</option>
+                        <option>Cinema</option>
+                        <option>Others</option>
+                      </select>
                     </div>
                     <div class="form-group">
-                        <label for="formGroupExampleInput3">Movie Genre</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Movie Genre">
+                        <label for="formGroupExampleInput3">Movie Genre</label><br>
+                        <div class="radio-checkbox-container">
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">Action</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">Adventure</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">Animated</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">Comedy</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">Drama</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">Fantasy</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">Fictional</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">Historical</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">Horror</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">Science</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">Others</label>
+                      </div>
                       </div>
                       <div class="form-group">
-                        <label for="formGroupExampleInput4">Rate(1-10)</label>
-                        <input type="number" class="form-control" id="formGroupExampleInput4" placeholder="Rate(1-10)">
+                        <label for="formGroupExampleInput4">Rate</label><br>
+                        <div class="radio-checkbox-container">
+                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">1</label>
+                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">2</label>
+                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">3</label>
+                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">4</label>
+                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput4">5</label>
                       </div>
-                      <button type="submit" class="btn btn-primary">Recommend</button>
+                      </div>
+                      
+                      <button type="submit" class="btn btn-primary" id="submit-button">Recommend</button>
                        
 
                   </form>
