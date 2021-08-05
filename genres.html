@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en-US" class="h-100 movie-app-html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Movie suggesters</title>
+</head>
+<body class="d-flex flex-column" data-spy="scroll" data-target="#list-example">
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand logo" href="index.html">Movie Suggesters</a>
+
+      <!-------------------------------------TOGGLE BUTTON ------------------>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="movie-app.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Recommendations<span class="sr-only">(current)</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item active" href="movie-app.html">Movie App<span class="sr-only">(current)</span></a>
+              <a class="dropdown-item" href="genres.html">Genres</a>
+              <a class="dropdown-item" href="production-year.html">Production year</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="movies.html">Movies of the week</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">Suggest a movie</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+   </header>
+
+   <section>
+     <!------------------------------------- SCROLLSPY ------------------>
+    <div id="list-example" class="list-group">
+      <a class="list-group-item list-group-item-action" href="#action-movie">Action</a>
+      <a class="list-group-item list-group-item-action" href="#adventure-movie">Adventure</a>
+      <a class="list-group-item list-group-item-action" href="#animated-movie">Animated</a>
+    </div>
+    <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+
+      <!-------------------------------------ACTION SECTION ------------------>
+    <div class="container-fluid netflix-box" id="action-movie">
+      <div class="netflix-box-text">
+        <h4>Action Movies</h4>
+      </div>
+        <div class="card mb-3" style="max-width: 100vw;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+    <!--By May be found at the following website: IMPawards, Fair use, https://en.wikipedia.org/w/index.php?curid=61946279-->
+              <img src="Assets/images/Bad_Boys_for_Life_poster (1).jpg" alt="bad boys for life poster">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">Bad Boys for Life</h4>
+                <p class="card-text">Miami detectives Mike Lowrey and Marcus Burnett must face off against a mother-and-son pair of drug lords who wreak vengeful havoc on their city.</p><hr>
+                <h4 class="card-title">Casts</h4>
+                <pre>	Will Smith      Martin Lawrence     Vanessa Hudgens</pre><hr>
+                <h4 class="card-title">Production Year</h4>
+                <p class="card-text">2020</p><hr>
+                <h4 class="card-title">Duration</h4>
+                <p class="card-text">2hr 3minutes</p><hr>
+                <p class="watch-link">
+                   For More details and to Watch(Amazon Prime Video)
+                  <a href="https://www.amazon.co.uk/Bad-Boys-Life-Will-Smith/dp/B083XF26YJ" target="blank">Click Here.</a> (Subscription required)
+                </p><hr>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 100vw;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+    <!--By ComingSoon.net, Fair use, https://en.wikipedia.org/w/index.php?curid=64009739-->
+            <img src="Assets/images/The_Old_Guard_2020_film_poster (1).png" alt="The old guard film poster">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">The Old Guard</h4>
+                <p class="card-text">
+                Four undying warriors who've secretly protected humanity for centuries become targeted
+                for their mysterious powers just as they discover a new immortal. 
+                </p><hr>
+                <h4 class="card-title">Casts</h4>
+                <pre>Charlize Theron        KiKi Layne     Marwan Kenzari</pre><hr>
+                <h4 class="card-title">Production Year</h4>
+                <p class="card-text">2020</p><hr>
+                <h4 class="card-title">Duration</h4>
+                <p class="card-text">2hr 5minutes</p><hr>
+                <p class="watch-link">
+                   For More details and to Watch(Netflix)
+                  <a href="https://www.netflix.com/gb/Title/81038963" target="blank">Click Here.</a> (Subscription required)
+                </p><hr>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 100vw;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+           <!--By Netflix - https://www.joblo.com/movie-posters/2020/spenser-confidential/image-35736, Fair use, https://en.wikipedia.org/w/index.php?curid=62894238-->     
+            <img src="Assets/images/Spenser_Confidential_poster (1).jpg" alt="spencer confidential poster">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title">Spencer Confidential</h4>
+              <p class="card-text">
+                When two Boston police officers are murdered, ex-cop Spenser teams up with his
+                no-nonsense roommate, Hawk, to take down criminals 
+              </p><hr>
+              <h4 class="card-title">Casts</h4>
+              <pre>Mark Wahlberg        Winston Duke       Alan Arkin</pre><hr>
+              <h4 class="card-title">Production Year</h4>
+              <p class="card-text">2020</p><hr>
+              <h4 class="card-title">Duration</h4>
+              <p class="card-text">1hr 51minutes</p><hr>
+              <p class="watch-link">
+                 For More details and to Watch(Netflix)
+                <a href="https://www.netflix.com/gb/title/81005492" target="blank">Click Here.</a> (Subscription required)
+              </p><hr>
+              </div>
+          </div>
+        </div>
+        </div>
+        <div class="card mb-3" style="max-width: 100vw;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+    <!--By IMP Awards, Fair use, https://en.wikipedia.org/w/index.php?curid=63519645-->
+          <img src="Assets/images/Extraction_(2020_film) (1).png" alt="Extraction movie poster">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h4 class="card-title">Extraction</h4>
+            <p class="card-text">
+                A hardened mercenary's mission becomes a soul-searching race to 
+                survive when he's sent into Bangladesh to rescue a drug lord's kidnapped son.
+            </p><hr>
+            <h4 class="card-title">Casts</h4>
+            <pre>Chris Hemsworth        Rudhraksh Jaiswal      Randeep Hooda</pre><hr>
+            <h4 class="card-title">Production Year</h4>
+            <p class="card-text">2020</p><hr>
+            <h4 class="card-title">Duration</h4>
+            <p class="card-text">1hr 57minutes</p><hr>
+            <p class="watch-link">
+               For More details and to Watch(Netflix)
+              <a href="https://www.netflix.com/gb/title/80230399" target="blank">Click Here.</a> (Subscription required)
+            </p><hr>
+            </div>
+        </div>
+      </div>
+        </div>
+        <div class="card mb-3" style="max-width: 100vw;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+    <!--By The poster art can or could be obtained from Lionsgate., Fair use, https://en.wikipedia.org/w/index.php?curid=47787930-->
+        <img src="Assets/images/Mechanic_Resurrection_poster (1).jpg" alt="Mechanic_Resurrection movie poster">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 class="card-title">Mechanic: Resurrection</h4>
+          <p class="card-text">
+            Bishop's most formidable foe kidnaps the love of his life in order to make 
+            him complete three impossible assassinations and make them look like accidents.
+          </p><hr>
+          <h4 class="card-title">Casts</h4>
+          <pre>Jason Statham        Jessica Alba        Tommy Lee Jones</pre><hr>
+          <h4 class="card-title">Production Year</h4>
+          <p class="card-text">2016</p><hr>
+          <h4 class="card-title">Duration</h4>
+          <p class="card-text">1hr 38minutes</p><hr>
+          <p class="watch-link">
+             For More details and to Watch(Amazon Prime Video)
+            <a href="https://www.amazon.co.uk/Mechanic-Resurrection-Jason-Statham/dp/B01MQQVDJ4" target="blank">Click Here.</a> (Subscription required)
+          </p><hr>
+          </div>
+      </div>
+    </div>
+        </div>
+        
+   <!------------------------------------- ADVENTURE SECTION ------------------>   
+    <div class="container-fluid netflix-box" id="adventure-movie">
+     <div class="netflix-box-text">
+       <h4>Adventure Movies</h4>
+     </div>
+     <div class="card mb-3" style="max-width: 100vw;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="Assets/images/Soul_Poster (1).jpeg" alt="soul movie poster">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title">Soul</h4>
+              <p class="card-text">
+               A middle-school band teacher who gets the chance of a lifetime to play at 
+               the best jazz club in town. But one small misstep takes him from the streets 
+               of New York City to The Great Before 
+              </p><hr>
+              <h4 class="card-title">Casts</h4>
+              <pre>Jamie Foxx    Tina Fey    Graham Norton</pre><hr>
+              <h4 class="card-title">Production Year</h4>
+              <p class="card-text">2020</p><hr>
+              <h4 class="card-title">Duration</h4>
+              <p class="card-text">1hr 40minutes</p><hr>
+              <p class="watch-link">
+                 For More details and to Watch(Disney+)
+                <a href="https://disney.co.uk/movies/soul" target="blank">Click Here.</a> (Subscription required)
+              </p><hr>
+              </div>
+          </div>
+        </div>
+         </div>
+       <div class="card mb-3" style="max-width: 100vw;">
+         <div class="row no-gutters">
+           <div class="col-md-4">
+             <img src="Assets/images/Raya_and_the_Last_Dragon (1).png" alt="Raya and the last Dragon poster">
+           </div>
+           
+           <div class="col-md-8">
+             <div class="card-body">
+               <h4 class="card-title">Raya and the last the dragon</h4>
+               <p class="card-text">
+                In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient 
+                civilization, a warrior named Raya is determined to find the last dragon.
+               </p><hr>
+               <h4 class="card-title">Casts</h4>
+               <pre>Kelly Marie   Awkwafina   Gemma Chan</pre><hr>
+               <h4 class="card-title">Production Year</h4>
+               <p class="card-text">2021</p><hr>
+               <h4 class="card-title">Duration</h4>
+               <p class="card-text">1hr 53minutes</p><hr>
+               <p class="watch-link">
+                  For More details and to Watch
+                 <a href="https://www.disneyplus.com/en-gb/movies/raya-and-the-last-dragon/6dyengbx3iYK" target="blank">Click Here.</a> (Subscription required)
+               </p><hr>
+               </div>
+     
+          </div>
+         </div>
+       </div>
+       <div class="card mb-3" style="max-width: 100vw;">
+         <div class="row no-gutters">
+           <div class="col-md-4">
+             <img src="Assets/images/Luca_(2021_film) (1).png" alt="luca movie poster">
+           </div>
+           <div class="col-md-8">
+             <div class="card-body">
+               <h4 class="card-title">Luca</h4>
+               <p class="card-text">
+                A young boy(Luca) experiencing an unforgettable summer 
+                filled with gelato, pasta and endless scooter rides. Luca shares 
+                these adventures with his newfound best friend, but all the 
+                fun is threatened by a deeply-held secret. 
+               </p><hr>
+               <h4 class="card-title">Casts</h4>
+               <pre>Jacob Tremblay    Jack Dylan Grazer   Emma Berman</pre><hr>
+               <h4 class="card-title">Production Year</h4>
+               <p class="card-text">2021</p><hr>
+               <h4 class="card-title">Duration</h4>
+               <p class="card-text">2hr</p><hr>
+               <p class="watch-link">
+                  For More details and to Watch(Disney+)
+                 <a href="https://disney.co.uk/movies/luca" target="blank">Click Here.</a> (Subscription required)
+               </p><hr>
+               </div>
+           </div>
+         </div>
+       </div>
+      <div class="card mb-3" style="max-width: 100vw;">
+   <div class="row no-gutters">
+     <div class="col-md-4">
+    <!--By IMP Awards, Fair use, https://en.wikipedia.org/w/index.php?curid=66958521-->
+       <img src="Assets/images/Voyagers (1).jpg" alt="voyagers movie poster">
+     </div>
+     <div class="col-md-8">
+       <div class="card-body">
+         <h4 class="card-title">Voyagers</h4>
+         <p class="card-text">
+            A crew of astronauts on a multi-generational
+            mission descend into paranoia and madness, not knowing what is real or not  
+         </p><hr>
+         <h4 class="card-title">Casts</h4>
+         <pre>Tye Sheridan      Lily-Rose Depp      Fionn Whitehead</pre><hr>
+         <h4 class="card-title">Production Year</h4>
+         <p class="card-text">2021</p><hr>
+         <h4 class="card-title">Duration</h4>
+         <p class="card-text">1hr 48minutes</p><hr>
+         <p class="watch-link">
+            For More details and to Watch(Youtube)
+           <a href="https://www.youtube.com/watch?v=u4s-F2Ip3OM" target="blank">Click Here.</a> (Subscription required)
+         </p><hr>
+         </div>
+     </div>
+   </div>
+    </div>
+    <div class="card mb-3" style="max-width: 100vw;">
+ <div class="row no-gutters">
+   <div class="col-md-4">
+     <img src="Assets/images/Petes_dragon_2016_film_poster (1).jpg" alt="Pete's Dragon movie poster">
+   </div>
+   <div class="col-md-8">
+     <div class="card-body">
+       <h4 class="card-title">Pete's Dragon</h4>
+       <p class="card-text">
+        The story of Pete and his best friend Elliott the dragon. A forest ranger with the help of a young girl
+        sets to find out the truth about Pete and his mysterious friend.
+       </p><hr>
+       <h4 class="card-title">Casts</h4>
+       <pre>Bryce Dallas Howard   Oakes Fegley    Wes Bentley</pre><hr>
+       <h4 class="card-title">Production Year</h4>
+       <p class="card-text">2016</p><hr>
+       <h4 class="card-title">Duration</h4>
+       <p class="card-text">1hrs 46minutes</p><hr>
+       <p class="watch-link">
+          For More details and to Watch
+         <a href="https://www.disneyplus.com/en-gb/movies/petes-dragon/H9h3VPxoyCiS" target="blank">Click Here.</a> (Subscription required)
+        </p><hr>
+       </div>
+   </div>
+ </div>
+    </div>
+    </div>
+
+   <!------------------------------------- ANIMATED SECTION ------------------>
+    <div class="container-fluid netflix-box" id="animated-movie">
+     <div class="netflix-box-text">
+       <h4>Animated Movies</h4>
+     </div>
+       <div class="card mb-3" style="max-width: 100vw;">
+         <div class="row no-gutters">
+           <div class="col-md-4">
+    <!--By https://www.filmaffinity.com/us/film238380.html, Fair use, https://en.wikipedia.org/w/index.php?curid=65414616-->
+             <img src="Assets/images/Over_the_Moon_(2020) (1).png" alt="over the moon movie poster">
+           </div>
+           <div class="col-md-8">
+             <div class="card-body">
+               <h4 class="card-title">Over the moon</h4>
+               <p class="card-text"> 
+                Fueled by memories of her mother, resourceful Fei Fei builds a 
+                rocket to the moon on a mission to prove the existence of a legendary moon goddess.
+               </p><hr>
+               <h4 class="card-title">Casts</h4>
+               <pre>Cathy Ang       Phillipa Soo      Ken Jeong</pre><hr>
+               <h4 class="card-title">Production Year</h4>
+               <p class="card-text">2020</p><hr>
+               <h4 class="card-title">Duration</h4>
+               <p class="card-text">1hr 40minutes</p><hr>
+               <p class="watch-link">
+                  For More details and to Watch(Netflix)
+                 <a href="https://www.netflix.com/gb/title/80214236" target="blank">Click Here.</a> (Subscription required)
+               </p><hr>
+               </div>
+           </div>
+         </div>
+       </div>
+       <div class="card mb-3" style="max-width: 100vw;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+    <!--By IMDB - IMDB, Fair use, https://en.wikipedia.org/w/index.php?curid=61422261--> 
+            <img src="Assets/images/The_Willoughbys_Theatrical_release_poster (1).jpg" alt="the_Willoughbys poster">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title">The Willoughbys</h4>
+              <p class="card-text">
+                Four siblings with horribly selfish parents 
+                hatch a plan to get rid of them for good and form a 
+                perfectly imperfect family of their own.
+              </p><hr>
+              <h4 class="card-title">Casts</h4>
+              <pre>Will Forte       Maya Rudolph      Ricky Gervais</pre><hr>
+              <h4 class="card-title">Production Year</h4>
+              <p class="card-text">2020</p><hr>
+              <h4 class="card-title">Duration</h4>
+              <p class="card-text">1hr 32minutes</p><hr>
+              <p class="watch-link">
+                 For More details and to Watch(Netflix)
+                <a href="https://www.netflix.com/gb/Title/80239482" target="blank">Click Here.</a> (Subscription required)
+              </p><hr>
+              </div>
+          </div>
+        </div>
+      </div>
+       <div class="card mb-3" style="max-width: 100vw;">
+         <div class="row no-gutters">
+           <div class="col-md-4">
+    <!--By Collider, Fair use, https://en.wikipedia.org/w/index.php?curid=62315481-->
+             <img src="Assets/images/Scoob_poster (1).png" alt="Scoob poster"></a>
+           </div>
+           <div class="col-md-8">
+             <div class="card-body">
+               <h4 class="card-title">Scoob</h4>
+               <p class="card-text">
+                Scooby and the gang face their most challenging mystery ever: a plot to 
+                unleash the ghost dog Cerberus upon the world. As they race to stop this
+                 dogpocalypse, the gang discovers that Scooby has an epic destiny greater than anyone imagined.
+               </p><hr>
+               <h4 class="card-title">Casts</h4>
+               <pre>Will Forte      Mark Wahlberg       Jason Isaacs</pre><hr>
+               <h4 class="card-title">Production Year</h4>
+               <p class="card-text">2020</p><hr>
+               <h4 class="card-title">Duration</h4>
+               <p class="card-text">1hr 33minutes</p><hr>
+               <p class="watch-link">
+                  Showing in Cinemas
+                 </p><hr>
+               </div>
+           </div>
+         </div>
+       </div>
+     <div class="card mb-3" style="max-width: 100vw;">
+       <div class="row no-gutters">
+         <div class="col-md-4">
+    <!--By https://www.imdb.com/title/tt12139700/, Fair use, https://en.wikipedia.org/w/index.php?curid=64401696--> 
+           <img src="Assets/images/JungleBeatTheMoviePoster (1).jpg" alt="jungle beat movie poster"></a>
+         </div>
+         <div class="col-md-8">
+           <div class="card-body">
+             <h4 class="card-title">Jungle Beat: The Movie</h4>
+             <p class="card-text">
+                When a lost and lonely alien crash-lands on Earth, his new crew of talking animal friends
+                helps him get back home — and try to save the world! 
+             </p><hr>
+             <h4 class="card-title">Casts</h4>
+             <pre>Ed Kear       David Menkin      Ina Marie Smith</pre><hr>
+             <h4 class="card-title">Production Year</h4>
+             <p class="card-text">2020</p><hr>
+             <h4 class="card-title">Duration</h4>
+             <p class="card-text">1hr 29minutes</p><hr>
+             <p class="watch-link">
+                For More details and to Watch
+               <a href="https://www.netflix.com/gb/title/81381727" target="blank">Click Here.</a> (Subscription required)
+             </p><hr>
+             </div>
+         </div>
+       </div>
+     </div>
+    <div class="card mb-3" style="max-width: 100vw;">
+     <div class="row no-gutters">
+       <div class="col-md-4">
+    <!--By DreamWorks Animation - https://twitter.com/Trolls/status/1194994646419677184, Fair use, https://en.wikipedia.org/w/index.php?curid=62345967-->
+         <img src="Assets/images/Trolls_World_Tour_poster.jpg" alt="Trolls_World_Tour movie poster">
+       </div>
+       <div class="col-md-8">
+         <div class="card-body">
+           <h4 class="card-title">Trolls World Tour</h4>
+           <p class="card-text">
+            When the Queen of the Hard Rock Trolls tries to take over all the Troll kingdoms, Queen 
+            Poppy and her friends try different ways to save all the Trolls
+           </p><hr>
+           <h4 class="card-title">Casts</h4>
+           <pre>Gustavo Dudamel     Jamie Dornan       Rachel Bloom</pre><hr>
+           <h4 class="card-title">Production Year</h4>
+           <p class="card-text">2020</p><hr>
+           <h4 class="card-title">Duration</h4>
+           <p class="card-text">1hr 30minutes</p><hr>
+           <p class="watch-link">
+              For More details and to Watch
+             <a href="https://www.amazon.co.uk/Trolls-World-Tour-Gustavo-Dudamel/dp/B086N17JV5" target="blank">Click Here.</a> (Subscription required)
+           </p><hr>
+           </div>
+       </div>
+     </div>
+    </div>
+    <div class="card mb-3" style="max-width: 100vw;">
+   <div class="row no-gutters">
+     <div class="col-md-4">
+       <a href="https://www.amazon.co.uk/Escape-Pretoria-Daniel-Radcliffe/dp/B08X6VPYP8/ref=sr_1_1?dchild=1&keywords=escape+from+pretoria&qid=1626866830&s=instant-video&sr=1-1" target="blank">
+       <img src="Assets/images/Escape_from_Pretoria_film_poster (1).png" alt="escape from pretoria movie poster"></a>
+     </div>
+     <div class="col-md-8">
+       <div class="card-body">
+         <h4 class="card-title">escape from pretoria</h4>
+         <p class="card-text">
+           Based on a true life story. A convict plans his escape from one of the world's maximum security prison. 
+         </p><hr>
+         <h4 class="card-title">Casts</h4>
+         <pre>Daniel Radcliffe    Ian Hart    Daniel Webber</pre><hr>
+         <h4 class="card-title">Production Year</h4>
+         <p class="card-text">2021</p><hr>
+         <h4 class="card-title">Duration</h4>
+         <p class="card-text">1hr 46minutes</p><hr>
+         <p class="watch-link">
+            For More details and to Watch
+           <a href="https://www.amazon.co.uk/Escape-Pretoria-Daniel-Radcliffe/dp/B08X6VPYP8/ref=sr_1_1?dchild=1&keywords=escape+from+pretoria&qid=1626866830&s=instant-video&sr=1-1" target="blank">Click Here.</a> (Subscription required)
+         </p><hr>
+         </div>
+     </div>
+   </div>
+    </div>
+    </div>
+  </div>
+</section>
+    <!------------------------------------- FOOTER ------------------>
+    <footer class="mt-auto">
+      <div class="row footer-box container-fluid">
+        <a href="https://www.entertainmentdaily.co.uk/news/" target="__blank" class="col-sm-4 text-decoration-none">
+          <h2 class="name">Entertainment Gossip</h2>
+        </a>
+        <div class="col-sm-8">
+          <div class="row">
+            <div class="col">
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/" target="__blank">
+                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/" target="__blank">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.twitter.com/" target="__blank">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/" target="__blank">
+                <i class="fab fa-youtube"aria-hidden="true"></i>
+                <span class="sr-only">Youtube</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      </div>
+    </footer>
+</body>
+</html>
