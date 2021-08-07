@@ -245,9 +245,10 @@ footer {
 }
 
 .form-box {
-    height: 430px;
-    width: 400px;
-    margin-top:30px;
+    height: fit-content;
+    width: 40vw;
+    margin-top:50px;
+    margin-bottom: 30px;
     padding: 15px;
     border-radius: 10px;
     overflow: hidden;
@@ -257,13 +258,14 @@ footer {
     margin: auto;
     padding:12px;
     border-radius: 10px;
-    background-color: #2364AA;
+    border-color: #F7821B;
+    background-color: #F7821B;
     color: #ffffff;
 }
 
 #submit-button:hover {
     background-color: #ffffff;
-    color:#2364AA;
+    color:#F7821B;
 }
 
 
@@ -369,8 +371,25 @@ h4{
     display: inline-flex;
     }
 
+    .radio-checkbox-container{
+        background-color: #fff;
+        color:#000;
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+    .movie-app-options{
+        width: 100%;
+        border-radius: 4px;
+    }    
+
+    
+    input[type=checkbox], input[type=radio] {
+        margin-left: 1px;
+        margin-right: 4px;
+    }
     /*----------------------------------------------------------media Queries*/
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 500px) {
         .form-box {
               width: 250px;
         }  
