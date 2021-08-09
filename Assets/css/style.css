@@ -18,6 +18,10 @@ body{
     position: relative;
 }
 
+.recommendation-section{
+    margin:0;
+}
+
 section{
     margin-top:5%;
 }
@@ -74,6 +78,7 @@ section {
 .list-group-item{
     background-color: #f8f9fa;
 }
+
 
 /*----------------------------------------------------------Header*/ 
 .active a{
@@ -355,8 +360,7 @@ h4{
 
 .watch-link {
        font-family: "satisfy", sans-serif;
-       
-   }
+    }
 
    .watch-link a {
        color:#F7821B;
