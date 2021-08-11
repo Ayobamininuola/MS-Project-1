@@ -272,12 +272,17 @@ footer {
     color:#F7821B;
 }
 
+.form-group h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+
 
 /*----------------------------------------------------------Movies of the week*/
 .movie-html {
     width:100%;
     height: 100%;
-    background-image: url(../images/pexels-joão-vítor-heinrichs-1787044\ \(1\).jpg);
+    background-image: url(../images/pexels-joão-vítor-heinrichs-1787044\(1\).jpg);
     background-color: #4b4a4a;
     background-position: center center;
     background-attachment: fixed;
@@ -292,16 +297,15 @@ footer {
         font-weight: 400;
         color:#E5F4E3;
         text-align:center;
-        margin-top: 35px;
-    }
+        margin-top: 55px;
+}
 
 .video-1-details h3{
         font-family: "roboto", sans-serif;
         font-weight: 500;
         font-size: 25px;
         color:#1E96FC; 
-        
-    }
+}
 
     p, pre{
         font-family: "roboto", sans-serif;

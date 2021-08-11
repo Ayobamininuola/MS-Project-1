@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Movie Suggesters recommending movies to watch across different
+    streaming sites">
+    <meta name="keywords" content="Movies, films, movie suggestions, film recommendations, netflix, Disney+
+    Amazon prime videos">
+    <meta name="author" content="Abigael Arinola">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
@@ -54,8 +59,9 @@
                       <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Movie Title" required>
                     </div>
                     <div class="form-group">
-                      <label for="formGroupExampleInput2">Movie App</label><br>
-                       <!------------------------------------- Movie App options ------------------>
+                      <h4>Movie App</h4>
+
+                       <!-- Movie App options -->
                       <select class="movie-app-options">
                         <option selected>Choose one</option>
                         <option>Amazon Prime video</option>
@@ -69,45 +75,45 @@
                       </select>
                     </div>
                     <div class="form-group">
-                        <label for="formGroupExampleInput3">Movie Genre</label><br>
+                        <h4>Movie Genre</h4>
                         <div class="radio-checkbox-container">
-                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">Action</label>
-                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">Adventure</label>
-                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
+                        <label for="formGroupExampleInput1">Action</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput1" required>
+                        <label for="formGroupExampleInput2">Adventure</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput2">
                         <label for="formGroupExampleInput4">Animated</label>
                         <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">Comedy</label>
-                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">Drama</label>
-                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">Fantasy</label>
-                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">Fictional</label>
-                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">Historical</label>
-                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">Horror</label>
-                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">Science</label>
-                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">Others</label>
-                      </div>
+                        <label for="formGroupExampleInput5">Comedy</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput5">
+                        <label for="formGroupExampleInput6">Drama</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput6">
+                        <label for="formGroupExampleInput7">Fantasy</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput7">
+                        <label for="formGroupExampleInput8">Fictional</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput8">
+                        <label for="formGroupExampleInput9">Historical</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput9">
+                        <label for="formGroupExampleInput10">Horror</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput10">
+                        <label for="formGroupExampleInput11">Science</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput11">
+                        <label for="formGroupExampleInput12">Others</label>
+                        <input type="checkbox" name="checkbox-buttons" id="formGroupExampleInput12">
+                        </div>
                       </div>
                       <div class="form-group">
-                        <label for="formGroupExampleInput4">Rate</label><br>
+                        <h4>Rate</h4>
                         <div class="radio-checkbox-container">
-                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">1</label>
-                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">2</label>
-                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">3</label>
-                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">4</label>
-                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput4">
-                        <label for="formGroupExampleInput4">5</label>
+                        <label for="formGroupExampleInput13">1</label>  
+                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput13">
+                        <label for="formGroupExampleInput14">2</label>
+                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput14">
+                        <label for="formGroupExampleInput15">3</label>
+                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput15">
+                        <label for="formGroupExampleInput16">4</label>
+                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput16">
+                        <label for="formGroupExampleInput17">5</label>
+                        <input type="radio" name="radio-rate-buttons" id="formGroupExampleInput17">
                       </div>
                       </div>
                       
@@ -119,7 +125,7 @@
     </section>
     <footer class="mt-auto">
       <div class="row footer-box container-fluid">
-        <a href="https://www.entertainmentdaily.co.uk/news/" target="__blank" class="col-sm-4 text-decoration-none">
+        <a href="https://www.entertainmentdaily.co.uk/news/" target="blank" class="col-sm-4 text-decoration-none">
           <h2 class="name">Entertainment Gossip</h2>
         </a>
         <div class="col-sm-8">
@@ -127,26 +133,26 @@
             <div class="col">
           <ul class="list-inline social-links">
             <li class="list-inline-item">
-              <a href="https://www.facebook.com/" target="__blank">
+              <a href="https://www.facebook.com/" target="blank">
                 <i class="fab fa-facebook-square" aria-hidden="true"></i>
                 <span class="sr-only">Facebook</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.instagram.com/" target="__blank">
+              <a href="https://www.instagram.com/" target="blank">
                 <i class="fab fa-instagram" aria-hidden="true"></i>
                 <span class="sr-only">Instagram</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.twitter.com/" target="__blank">
+              <a href="https://www.twitter.com/" target="blank">
                 <i class="fab fa-twitter" aria-hidden="true"></i>
                 <span class="sr-only">Twitter</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.youtube.com/" target="__blank">
-                <i class="fab fa-youtube"aria-hidden="true"></i>
+              <a href="https://www.youtube.com/" target="blank">
+                <i class="fab fa-youtube" aria-hidden="true"></i>
                 <span class="sr-only">Youtube</span>
               </a>
             </li>
