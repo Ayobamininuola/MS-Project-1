@@ -3,8 +3,7 @@
 
 
 /*----------------------------------------------------------General section*/
-
- body{
+body{
     background-color: initial;
     margin: 0;
     width: 100%;
@@ -38,7 +37,7 @@ h1, h2 {
     width:100%;
     height: 100%;
     background-image: url(../images/image\ option\ 2.jpg);
-    background-color: #000;
+    background-color: #343434;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -279,7 +278,7 @@ footer {
     width:100%;
     height: 100%;
     background-image: url(../images/pexels-joão-vítor-heinrichs-1787044\ \(1\).jpg);
-    background-color: #000;
+    background-color: #4b4a4a;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -296,9 +295,9 @@ footer {
         margin-top: 35px;
     }
 
-h4{
+.video-1-details h3{
         font-family: "roboto", sans-serif;
-        font-weight: medium;
+        font-weight: 500;
         font-size: 25px;
         color:#1E96FC; 
         
@@ -307,7 +306,7 @@ h4{
     p, pre{
         font-family: "roboto", sans-serif;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 20px;
         color:#E5F4E3;
     }
 
@@ -333,7 +332,12 @@ h4{
 
 .card-body h4{
         text-transform: capitalize;
-    }
+}
+
+.dropdown-menu a {
+    background-color: inherit;
+    color: #000;
+}
 
 .netflix-box{
     width: 90%;
@@ -342,38 +346,37 @@ h4{
 .netflix-box-text{
         margin-top:50px;
         margin-bottom: 25px;
-    }
+}
     
 .netflix-box-text h4{
         font-family: "Satisfy", sans-serif;
         color:#5DA9E9;
         text-align: center;
         font-size: 40px;
-        
-    }
+}
 
 .card-title {
     font-family: "roboto", sans-serif;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 25px;
-   }
+}
 
 .watch-link {
        font-family: "satisfy", sans-serif;
-    }
+}
 
-   .watch-link a {
+.watch-link a {
        color:#F7821B;
-   }
+}
 
-   #list-example {
+#list-example {
     position: sticky;
     margin-top: 0;
     top: 50px;
     z-index: 2;
     max-width: fit-content;
     display: inline-flex;
-    }
+}
 
     .radio-checkbox-container{
         background-color: #fff;
