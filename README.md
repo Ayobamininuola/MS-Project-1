@@ -7,21 +7,21 @@
 * Set-up
 * Deployment  
 
-## TITLE
-### Movie Suggesters
+## Title
+    Movie Suggesters
 
 ## Introduction
-### Movie suggesters is a website designed to easily recommend movies for adults and also suggest where it can be watched. It also enables users to recommend movies that they think is worth watching for other
+    Movie suggesters is a website designed to easily recommend movies for movie lovers and suggest where it can be watched. It also enables users to recommend movies that they think is worth watching for other
 
 ## User Experience
 
 ### Project Goals
-The aim of creating this website is to make it easier for adults to see recommended movies and make the choice of what to watch and where by picking movies that are suggested as worth-watching movies by other movie lovers.
+    The aim of creating this website is to make it easier for movie lovers to see recommended movies and make the choice of what to watch and where by picking movies that are suggested as worth-watching movies by other movie lovers.
 
 #### Users' Goals
 1. To see suggested movies in a less distracting site.
-2. To read about and know something about the suggested movie.
-3. To also recommend movies for other.
+2. To read and know something about the suggested movie in order to decide if it's worth watching.
+3. To recommend movies for other.
 4. To be able to see movies arranged and grouped.
 
 #### Developers Goals
@@ -44,27 +44,26 @@ The aim of creating this website is to make it easier for adults to see recommen
  ## Design Choices
  The site is made for movie lovers to easily see few suggested movies that can be watch at their leisure time. The design choice is made putting in mind that a movie settings is expected to be cool.
 
- * Background-colours
- Background colors are choosen to be dark and cool to give the users a welcomimg cinematic feel that also feels calm and relaxing setting the mode for some movie time.
+ * Background-colours:
+    Background colors are choosen to be dark and cool to give the users a welcomimg cinematic feel that also feels calm and relaxing setting the mode for some movie time.
 
- * Font
- The fonts used are Roboto and Satisfy to give the site artistic feel and also balancing it up to ensure it's legible and easy to read. The font-weight and sizes also ensures users are able to read contents easily.
+ * Font:
+    The fonts used are Roboto and Satisfy to give the site artistic feel and also balancing it up to ensure it's legible and easy to read. The font-weight and sizes also ensures users are able to read contents easily.
 
- * Styling
- Most Boxes and containers have round edges which make them more attractive and eye catching without distracting attention from the main content.
+ * Styling:
+    Most Boxes and containers have round edges which make them more attractive and eye catching without distracting attention from the main content.
 
- * Video files
- Videos were given controls to enable users to play, pause and mute the video if needed with little description added to card.
+ * Video files:
+    Videos were given controls to enable users to play, pause and mute the video if needed with little description added to card.
 
- * Form
- Form was designed with a transparent container on a pictorial background to make it attractive and interesting to use. In order to enable users to use it witout stress and wasting time as well, it was designed to type less and check/click more thus saving time.
+ * Form:
+    Form was designed with a transparent container on a pictorial background to make it attractive and interesting to use. In order to enable users to use it witout stress and wasting time as well, it was designed to type less and check/click more thus saving time.
 
- * Icons
- All icons used straight forward and not in any way misleading.       
+ * Icons:
+    All icons used are straight forward and not in any way misleading or confusing.       
  
 ## Wireframing: 
-    The wireframe was created using Figma.
-[Wireframe](https://www.figma.com/file/xNpRfVbEvIAkqscHt548B1/Movie-Suggesters?node-id=0%3A1)
+    The wireframe was created using Figma.[Wireframe](https://www.figma.com/file/xNpRfVbEvIAkqscHt548B1/Movie-Suggesters?node-id=0%3A1)
 
 ## Technologies Used
 ### Languages Used
@@ -103,14 +102,18 @@ The aim of creating this website is to make it easier for adults to see recommen
     Other images used in the project were from wiki site with sources referenced in the project.              
 
 11. Figma:
-    Figma was used to create Wifeframes for the project. See here:[Wireframe](https://www.figma.com/file/xNpRfVbEvIAkqscHt548B1/Movie-Suggesters?node-id=0%3A1)
+    Figma was used to create Wifeframes for the project. See here:
+* [Homepage Wireframe](https://www.figma.com/file/8BlnyDyJlrUp4Q340kZx5D/Home-Page?node-id=0%3A1)
+* [Recommendations page Wireframe](https://www.figma.com/file/zW4lBzVaeicYauV5non2aj/Recommendation-page?node-id=0%3A1)
+* [Movies of the week Wireframe](https://www.figma.com/file/j3KvF6XbDaCBKP6VMacxzL/Movies-of-the-week?node-id=0%3A1)
+* [Form Wireframe](https://www.figma.com/file/nNciNsMGEe0kidD0gCGEQm/Form?node-id=0%3A1)
 
 ## Testing
 * W3C Markup Validation Service
 * W3C CSS Validation Service
     The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/validator).
-* [W3C HTML Validation]()
+* [W3C HTML Validation](https://validator.w3.org/nu/#textarea).
 
 ### Videos and pictures sources
 * Videos downloaded from [HD-trailers](http://www.hd-trailers.net/)
