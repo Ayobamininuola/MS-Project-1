@@ -8,17 +8,19 @@
 * Deployment  
 
 ## Title
-* Movie Suggesters
+ Movie Suggesters
 
-## Introduction 
- Movie suggesters is a website designed to easily recommend movies for movie lovers and suggest where it can be watched. It also enables users to recommend movies that they think is worth watching for other.
-
+## Introduction
+ Movie suggesters is a website designed to easily recommend movies for movie lovers and suggest where it can be watched. It also enables users to recommend movies that they think is worth watching for other
 
 ## User Experience
 
 ### Project Goals
  The aim of creating this website is to make it easier for movie lovers to see recommended movies and make the choice of what to watch and where by picking movies that are suggested as worth-watching movies by other movie lovers.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9a500ac32a702af9d30af59f3401ee386a8abbd3
 
 #### Users' Goals
 1. To see suggested movies in a less distracting site.
@@ -46,26 +48,26 @@
  ## Design Choices
  - The site is made for movie lovers to easily see few suggested movies that can be watch at their leisure time. The design choice is made putting in mind that a movie settings is expected to be cool.
 
- **Background-colours**
-  - Background colors are choosen to be dark and cool to give the users a welcomimg cinematic feel that also feels calm and relaxing setting the mode for some movie time.
-
- **Font**
- - The fonts used are Roboto and Satisfy to give the site artistic feel and also balancing it up to ensure it's legible and easy to read. The font-weight and sizes also ensures users are able to read contents easily.
+ **Background-colours:**
+  Background colors are choosen to be dark and cool to give the users a welcomimg cinematic feel that also feels calm and relaxing setting the mode for some movie time.
+ 
+ **Font:**
+  The fonts used are Roboto and Satisfy to give the site artistic feel and also balancing it up to ensure it's legible and easy to read. The font-weight and sizes also ensures users are able to read contents easily.
 
  **Styling:**
- - Most Boxes and containers have round edges which make them more attractive and eye catching without distracting attention from the main content.
+    Most Boxes and containers have round edges which make them more attractive and eye catching without distracting attention from the main content.
 
  **Video files:**
- - Videos were given controls to enable users to play, pause and mute the video if needed with little description added to card.
+    Videos were given controls to enable users to play, pause and mute the video if needed with little description added to card.
 
  **Form:**
- - Form was designed with a transparent container on a pictorial background to make it attractive and interesting to use. In order to enable users to use it witout stress and wasting time as well, it was designed to type less and check/click more thus saving time.
+    Form was designed with a transparent container on a pictorial background to make it attractive and interesting to use. In order to enable users to use it witout stress and wasting time as well, it was designed to type less and check/click more thus saving time.
 
  **Icons:**
- - All icons used are straight forward and not in any way misleading or confusing.       
+    All icons used are straight forward and not in any way misleading or confusing.       
  
-## Wireframing: 
- The wireframe was created using Figma. [Wireframe](https://www.figma.com/file/xNpRfVbEvIAkqscHt548B1/Movie-Suggesters?node-id=0%3A1)
+## Wireframing
+ The wireframe was created using Figma.[Wireframe](https://www.figma.com/file/xNpRfVbEvIAkqscHt548B1/Movie-Suggesters?node-id=0%3A1)
 
 ## Technologies Used
 
@@ -74,37 +76,40 @@
 * CSS3
 
 ### Frameworks, Libraries & Programs Used
-1. Bootstrap 4.6.x:
- Bootstrap was used for responsiveness of the site and some advanced coding
+1. [Bootstrap 4.6.x](https://getbootstrap.com/docs/4.6/getting-started/introduction/):
+    Bootstrap was used for responsiveness of the site and some advanced coding
 
 2. Hover.css:
  Hover.css was used on Social media footer icon to have a transition effect when hovered over
 
-3. Font Awesome:
- Font awesome was used to import icons used for social media on all pages.
+3. [Font Awesome](https://fontawesome.com/):
+    Font awesome was used to import icons used for social media on all pages.
 
-4. Google Fonts:
- Google Fonts was used to import "Roboto and Satisfy" font family into style.css which were used throughout the project     
+4. [Google Fonts](https://fonts.google.com/):
+    Google Fonts was used to import "Roboto and Satisfy" font family into style.css which were used throughout the project     
 
-5. jQuery:
- JQuery was used as part of Bootstrap to make Navabar toogler used on all pages as well ad scrollspy used on recommendations pages
+5. [Javascript](https://getbootstrap.com/docs/4.6/getting-started/javascript/):
+    Javascript was used as part of Bootstrap to make Navabar toogler used on all pages as well ad scrollspy used on recommendations pages
 
-6. Git:
- Git was used for version control to push and commit to Github
+6. [Git](https://gitpod.io/workspaces):
+    Git was used for version control to push and commit to Github
 
-7. GitHub:
- GitHub is used to store the project code
+7. [GitHub](https://github.com/):
+    GitHub is used to store the project code
 
-8. Tinypng:
- Tinypng was used to compress images used throughout the project
+8. [Tinypng](https://tinypng.com/):
+    Tinypng was used to compress images used throughout the project
 
-9. Pexels:
- Some of the Images used throughout project were downloaded from Pexels free as access was given by the site.
+9. [Pexels](https://www.pexels.com/):
+    Free and high resolution images downloaded from the site were used in the project.
 
 10. Wiki:
     Other images used in the project were from wiki site with sources referenced in the project.              
 
-11. Figma:
+11. [HD-trailers](http://www.hd-trailers.net/):
+    All videos used in the project were dwonloaded from the above site free.
+    
+12. Figma:
     Figma was used to create Wifeframes for the project. See here:
 * [Homepage Wireframe](https://www.figma.com/file/8BlnyDyJlrUp4Q340kZx5D/Home-Page?node-id=0%3A1)
 * [Recommendations page Wireframe](https://www.figma.com/file/zW4lBzVaeicYauV5non2aj/Recommendation-page?node-id=0%3A1)
@@ -114,10 +119,9 @@
 ## Testing
 * W3C Markup Validation Service
 * W3C CSS Validation Service
-    The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project
+ The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+ 
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/validator).
 * [W3C HTML Validation](https://validator.w3.org/nu/#textarea).
 
-### Videos and pictures sources
-* Videos downloaded from [HD-trailers](http://www.hd-trailers.net/)
-* Pictures downloaded from [Pexels](https://www.pexels.com/)
+
