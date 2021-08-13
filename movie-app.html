@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="Assets/css/style.css">
     <title>Movie suggesters</title>
 </head>
-<body class="d-flex flex-column" data-spy="scroll" data-target="#list-example">
+<body class="d-flex flex-column">
   <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand logo" href="index.html">Movie Suggesters</a>
@@ -45,7 +45,7 @@
             <a class="nav-link" href="movies.html">Movies of the week</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="form.html">Suggest a movie</a>
+            <a class="nav-link" href="suggest-a-movie.html">Suggest a movie</a>
           </li>
         </ul>
         
@@ -53,20 +53,23 @@
     </nav>
    </header>
 
-   <section class="recommendation-section">
-     <!-- SCROLLSPY -->
-    <div id="list-example" class="list-group">
-      <a class="list-group-item list-group-item-action" href="#netflix-movie">Watch on Netflix</a>
-      <a class="list-group-item list-group-item-action" href="#disney-movie">Watch on Disney+</a>
-      <a class="list-group-item list-group-item-action" href="#amazon-movie">Watch on Amazon prime video</a>
-    </div>
-    <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-
-      <!-- NETFLIX SECTION -->
-    <div class="container-fluid netflix-box" id="netflix-movie">
+   <section id="netflix-movie">
+    
+    <!-- NETFLIX SECTION -->
+    <div class="container-fluid netflix-box">
       <div class="netflix-box-text">
         <h4>Watch on Netflix</h4>
       </div>
+          <nav class="in-page-nav">
+            <ul>
+              <li>
+              <a href=#disney-movie>Disney+ Movies</a>
+              </li>
+              <li>
+                <a href=#amazon-movie>Amazon Movies</a>
+              </li>
+            </ul>
+          </nav>
         <div class="card mb-3" style="max-width: 100vw;">
           <div class="row no-gutters">
             <div class="col-md-4">
@@ -221,12 +224,24 @@
   </div>
         </div>
         </div>
+    </section>
 
-   <!-- DISNEY SECTION -->   
-    <div class="container-fluid netflix-box" id="disney-movie">
+   <!-- DISNEY SECTION -->  
+   <section id="disney-movie"> 
+    <div class="container-fluid netflix-box">
      <div class="netflix-box-text">
        <h4>Watch on Disney+</h4>
      </div>
+     <nav class="in-page-nav">
+      <ul>
+        <li>
+        <a href=#netflix-movie>Netflix Movies</a>
+        </li>
+        <li>
+          <a href=#amazon-movie>Amazon Movies</a>
+        </li>
+      </ul>
+    </nav>
        <div class="card mb-3" style="max-width: 100vw;">
          <div class="row no-gutters">
            <div class="col-md-4">
@@ -362,12 +377,24 @@
  </div>
     </div>
     </div>
+   </section>
 
+   <section  id="amazon-movie">
    <!-- AMAZON SECTION -->
-    <div class="container-fluid netflix-box" id="amazon-movie">
+    <div class="container-fluid netflix-box">
      <div class="netflix-box-text">
        <h4>Watch on Amazon prime video</h4>
      </div>
+     <nav class="in-page-nav">
+      <ul>
+        <li>
+          <a href=#netflix-movie>Netflix Movies</a>
+        </li>
+        <li>
+        <a href=#disney-movie>Disney+ Movies</a>
+        </li>
+        </ul>
+    </nav>
        <div class="card mb-3" style="max-width: 100vw;">
          <div class="row no-gutters">
            <div class="col-md-4">
@@ -524,7 +551,6 @@
    </div>
     </div>
     </div>
-  </div>
 </section>
      <!-- FOOTER -->
      <footer class="mt-auto">
