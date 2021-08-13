@@ -45,7 +45,7 @@
             <a class="nav-link" href="movies.html">Movies of the week</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="form.html">Suggest a movie</a>
+            <a class="nav-link" href="suggest-a-movie.html">Suggest a movie</a>
           </li>
         </ul>
         
@@ -53,20 +53,27 @@
     </nav>
    </header>
 
-   <section class="recommendation-section">
-     <!-- SCROLLSPY -->
-     <div id="list-example" class="list-group">
-      <a class="list-group-item list-group-item-action" href="#1980-movie">1980 Movies</a>
-      <a class="list-group-item list-group-item-action" href="#1990-movie">1990 Movies</a>
-      <a class="list-group-item list-group-item-action" href="#2000-movie">2000 Movies</a>
-    </div>
-    <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-
+   <section id="1980-movie">
+     
   <!--1980 SECTION -->
-    <div class="container-fluid netflix-box" id="1980-movie">
+    <div class="container-fluid netflix-box">
       <div class="netflix-box-text">
         <h4>1980 Movies</h4>
       </div>
+      <!------------------------1980 movie section---------------------------->
+      <nav class="in-page-nav">
+        <ul>
+          <li>
+          <a href="#1980-movie" aria-label="Click here to go to 1980 movies section">1980 Movies</a>
+          </li>
+          <li>
+            <a href="#1990-movie" aria-label="Click here to go to 1990 movies section">1990 Movies</a>
+          </li>
+          <li>
+            <a href="#2000-movie" aria-label="Click here to go to 2000 movies section">2000 Movies</a>
+          </li>
+        </ul>
+      </nav>
         <div class="card mb-3" style="max-width: 100vw;">
           <div class="row no-gutters">
             <div class="col-md-4">
@@ -199,11 +206,25 @@
           </div>
         </div>
         </div>
+    </section>
+
     <!-- 1990 SECTION -->
-    <div class="container-fluid netflix-box" id="1990-movie">
+    <section id="1990-movie">
+    <div class="container-fluid netflix-box">
       <div class="netflix-box-text">
         <h4>1990 Movies</h4>
       </div>
+      <!------------------------1990 movie section---------------------------->
+      <nav class="in-page-nav">
+        <ul>
+          <li>
+          <a href="#1980-movie" aria-label="Click here to go to 1980 movies section">1980 Movies</a>
+          </li>
+          <li>
+            <a href="#2000-movie" aria-label="Click here to go to 2000 movies section">2000 Movies</a>
+          </li>
+        </ul>
+      </nav>
         <div class="card mb-3" style="max-width: 100vw;">
           <div class="row no-gutters">
             <div class="col-md-4">
@@ -286,12 +307,25 @@
         </div>
         </div>
         </div>
+    </section>
         
     <!-- 2000 SECTION -->
-    <div class="container-fluid netflix-box" id="2000-movie">
+    <section id="2000-movie"> 
+    <div class="container-fluid netflix-box">
       <div class="netflix-box-text">
         <h4>2000 Movies</h4>
       </div>
+      <!------------------------2000 movie section---------------------------->
+      <nav class="in-page-nav">
+        <ul>
+          <li>
+          <a href="#1980-movie" aria-label="Click here to go to 1980 movies section">1980 Movies</a>
+          </li>
+          <li>
+            <a href="#1990-movie" aria-label="Click here to go to 1990 movies section">1990 Movies</a>
+          </li>
+        </ul>
+      </nav>
         <div class="card mb-3" style="max-width: 100vw;">
           <div class="row no-gutters">
             <div class="col-md-4">
@@ -448,8 +482,7 @@
             </div>
           </div>
         </div>
-        </div>
-  </div>
+    </div>
 </section>
      <!-- FOOTER -->
      <footer class="mt-auto">
