@@ -36,7 +36,7 @@
 
 ### First time user Goals
 * As a first time user, I want to be able to understand the purpose of the website at a glance.
-* I want to be able to navigate through the site with ease.
+* As a first time user, I want to be able to navigate through the site with ease.
 * As a first time user, I want to be able to make recommendations easily without typing too much.
 * I want to be able to contact or follow the site owner on social media for any questions or update. 
 
@@ -49,31 +49,31 @@
  - The site is made for movie lovers to easily see few suggested movies that can be watch at their leisure time. The design choice is made putting in mind that a movie settings is expected to be cool.
 
  **Background-colours:**
-  Background colors are choosen to be dark and cool to give the users a welcomimg cinematic feel that also feels calm and relaxing setting the mode for some movie time.
+* Background colors are choosen to be dark and cool to give the users a welcomimg cinematic feel that also feels calm and relaxing setting the mode for some movie time.
  
  **Font:**
-  The fonts used are Roboto and Satisfy to give the site artistic feel and also balancing it up to ensure it's legible and easy to read. The font-weight and sizes also ensures users are able to read contents easily.
+* The fonts used are Roboto and Satisfy to give the site artistic feel and also balancing it up to ensure it's legible and easy to read. The font-weight and sizes also ensures users are able to read contents easily.
 
  **Styling:**
-    Most Boxes and containers have round edges which make them more attractive and eye catching without distracting attention from the main content.
+* Most Boxes and containers have round edges which make them more attractive and eye catching without distracting attention from the main content.
 
  **Video files:**
-    Videos were given controls to enable users to play, pause and mute the video if needed with little description added to card.
+* Videos were given controls to enable users to play, pause and mute the video if needed with little description added to card.
 
  **Form:**
-    Form was designed with a transparent container on a pictorial background to make it attractive and interesting to use. In order to enable users to use it witout stress and wasting time as well, it was designed to type less and check/click more thus saving time.
+* Form was designed with a transparent container on a pictorial background to make it attractive and interesting to use. In order to enable users to use it witout stress and wasting time as well, it was designed to type less and check/click more thus saving time.
 
  **Icons:**
-    All icons used are straight forward and not in any way misleading or confusing.       
+* All icons used are straight forward and not in any way misleading or confusing.       
  
 ## Wireframing
- The wireframe was created using Figma.[Wireframe](https://www.figma.com/file/xNpRfVbEvIAkqscHt548B1/Movie-Suggesters?node-id=0%3A1)
+* The wireframe was created using Figma.[Wireframe](https://www.figma.com/file/xNpRfVbEvIAkqscHt548B1/Movie-Suggesters?node-id=0%3A1)
 
 ## Technologies Used
 
 ### Languages Used
-* HTML5
-* CSS3
+1. HTML5
+2. CSS3
 
 ### Frameworks, Libraries & Programs Used
 1. [Bootstrap 4.6.x](https://getbootstrap.com/docs/4.6/getting-started/introduction/):
@@ -125,3 +125,23 @@
 * [W3C HTML Validation](https://validator.w3.org/nu/#textarea).
 
 
+## Testing User Stories from User Experience (UX) Section
+### First time visitor goals
+1. As a first time user, I want to be able to understand the purpose of the website at a glance.
+    * Upon opening the site, the user is welcomed by a captivating background image that signifies outdoor cinema with a heading plain on the image telling first time users what we do.
+    * On the Navigation bar are lists of instructions telling the user what each pages will do once clicked.
+    * Also on the background that user will see first is a box telling users to make recommendations with a call to action button
+    * At the foot of the page are social media links with icons ease in once hover over to captivate users.
+
+2. As a first time user, I want to be able to navigate through the site with ease.
+    * On the top of the page upon entry are links that directly informed users what each pages do and contents that might be found in them.
+    * The Navigation bar is fixed thereby making it easier for users to see the link at all times and feel trapped and the need to scroll all through to the top before they can leave current page
+    * On the recommendation page which is a long page,a scrollspy is added to the top and made fixed to enable users to scroll to different sections of the page by just a click and returning to the home page by clicking the logo at the top which is fixed and visible always.
+    * The foot of the page has links that takes the user outside the window they are working and this is made so users can return to the site without having to search again.
+
+3. As a first time user, I want to be able to make recommendations easily without typing too much.
+    * Upon entry, there is a call to action button visibly placed on the background image asking users to make recommendations. This button leads to a page where there is a form to be filled.
+    * The form is designed make it easier for users to recommend easily by just typing in one field and clicking to fill others.
+    * After filling the required field in the form and the button is clicked, the page is refreshed and the user can use the navigation links to go to any other desired page.
+
+4.
