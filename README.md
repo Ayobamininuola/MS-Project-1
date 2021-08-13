@@ -17,10 +17,6 @@
 
 ### Project Goals
  The aim of creating this website is to make it easier for movie lovers to see recommended movies and make the choice of what to watch and where by picking movies that are suggested as worth-watching movies by other movie lovers.
-<<<<<<< HEAD
-
-=======
->>>>>>> 9a500ac32a702af9d30af59f3401ee386a8abbd3
 
 #### Users' Goals
 1. To see suggested movies in a less distracting site.
@@ -122,7 +118,8 @@
  The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
  
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/validator).
-* [W3C HTML Validation](https://validator.w3.org/nu/#textarea).
+* [Index.HTML Validation](https://validator.w3.org/nu/#textarea).
+
 
 
 ## Testing User Stories from User Experience (UX) Section
