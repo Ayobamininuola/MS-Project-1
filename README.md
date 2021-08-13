@@ -144,4 +144,9 @@
     * The form is designed make it easier for users to recommend easily by just typing in one field and clicking to fill others.
     * After filling the required field in the form and the button is clicked, the page is refreshed and the user can use the navigation links to go to any other desired page.
 
-4.
+4. I want to be able to contact or follow the site owner on social media for any questions or update.
+    * At the foot of all pages is a list of social media icons that lead the user to the social media page of the site
+
+### Returning Visitor Goals
+1. As a returning user, I want to be able to see new movie suggestions weekly on site.
+    * On returning to the page, the user can go to the movies of the week page by clicking on the navigation link and it will take the user to the weekly edited page.
