@@ -8,15 +8,15 @@
 * Deployment  
 
 ## Title
-    Movie Suggesters
+ Movie Suggesters
 
 ## Introduction
-    Movie suggesters is a website designed to easily recommend movies for movie lovers and suggest where it can be watched. It also enables users to recommend movies that they think is worth watching for other
+ Movie suggesters is a website designed to easily recommend movies for movie lovers and suggest where it can be watched. It also enables users to recommend movies that they think is worth watching for other
 
 ## User Experience
 
 ### Project Goals
-    The aim of creating this website is to make it easier for movie lovers to see recommended movies and make the choice of what to watch and where by picking movies that are suggested as worth-watching movies by other movie lovers.
+ The aim of creating this website is to make it easier for movie lovers to see recommended movies and make the choice of what to watch and where by picking movies that are suggested as worth-watching movies by other movie lovers.
 
 #### Users' Goals
 1. To see suggested movies in a less distracting site.
@@ -44,11 +44,11 @@
  ## Design Choices
  The site is made for movie lovers to easily see few suggested movies that can be watch at their leisure time. The design choice is made putting in mind that a movie settings is expected to be cool.
 
- * Background-colours:
-    Background colors are choosen to be dark and cool to give the users a welcomimg cinematic feel that also feels calm and relaxing setting the mode for some movie time.
+ ***Background-colours:**
+ - Background colors are choosen to be dark and cool to give the users a welcomimg cinematic feel that also feels calm and relaxing setting the mode for some movie time.
 
- * Font:
-    The fonts used are Roboto and Satisfy to give the site artistic feel and also balancing it up to ensure it's legible and easy to read. The font-weight and sizes also ensures users are able to read contents easily.
+ **Font:**
+ - The fonts used are Roboto and Satisfy to give the site artistic feel and also balancing it up to ensure it's legible and easy to read. The font-weight and sizes also ensures users are able to read contents easily.
 
  * Styling:
     Most Boxes and containers have round edges which make them more attractive and eye catching without distracting attention from the main content.
