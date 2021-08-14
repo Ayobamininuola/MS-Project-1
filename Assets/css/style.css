@@ -38,6 +38,9 @@ h1, h2 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
  }
 
@@ -241,7 +244,11 @@ footer {
     background-attachment: fixed;
     background-repeat: no-repeat;
     overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    
 }
 
 .form-box {
@@ -302,6 +309,9 @@ input[type=checkbox], input[type=radio] {
     background-attachment: fixed;
     background-repeat: no-repeat;
     overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
