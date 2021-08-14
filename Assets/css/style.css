@@ -315,8 +315,9 @@ input[type=checkbox], input[type=radio] {
 }
 
 video{
-    width: 50%;
-    height: 300px;
+    width: 60%;
+    height: 400px;
+    margin: auto;
 }
 
 .video-1-details{
