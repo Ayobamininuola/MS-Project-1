@@ -11,9 +11,13 @@
  Movie Suggesters
 
 ## Introduction
- Movie suggesters is a website designed to easily recommend movies for movie lovers and suggest where it can be watched. It also enables users to recommend movies that they think is worth watching for other
+ Movie suggesters is a website designed to recommend movies for movie lovers and suggest where it can be watched. It also enables users to recommend movies that they think is worth watching for others.
 
 ## User Experience
+
+### Ideal users of the website are:
+1. Potential movie lovers
+2. 
 
 ### Project Goals
  The aim of creating this website is to make it easier for movie lovers to see recommended movies and make the choice of what to watch and where by picking movies that are suggested as worth-watching movies by other movie lovers.
@@ -21,14 +25,15 @@
 #### Users' Goals
 1. To see suggested movies in a less distracting site.
 2. To read and know something about the suggested movie in order to decide if it's worth watching.
-3. To recommend movies for other.
+3. To recommend movies for others.
 4. To be able to see movies arranged and grouped.
 
 #### Developer's Goals
 1. To make a website where movie lovers can see some suggested movies and not waste time searching through hundreds of movies without knowing which is worth watching.
 2. To logically group the movies based on where to watch and the category of the movie.
-3. To minimize dissapointment of blindly watching a movie on a movie App that can be later said to be a waste of time and effort.
-4. To give users the opportunity to recommend movies that they have seen and would love others to see as well.  
+3. To minimize dissapointment of blindly watching a movie on a movie App that can later be said to be a waste of time and effort.
+4. To give users the opportunity to recommend movies that they have seen and would love others to see as well.
+5. To make users feel as part of the website community by giving them the opportunity to recommend movies for others to watch.   
 
 ### First time user Goals
 * As a first time user, I want to be able to understand the purpose of the website at a glance.
@@ -125,25 +130,33 @@
 ## Testing User Stories from User Experience (UX) Section
 ### First time visitor goals
 1. As a first time user, I want to be able to understand the purpose of the website at a glance.
-    * Upon opening the site, the user is welcomed by a captivating background image that signifies outdoor cinema with a heading plain on the image telling first time users what we do.
+    * Upon opening the site, the user is welcomed by a captivating background image which is an outdoor cinema with  heading plain on the image telling first time users what we do.
     * On the Navigation bar are lists of instructions telling the user what each pages will do once clicked.
     * Also on the background that user will see first is a box telling users to make recommendations with a call to action button
     * At the foot of the page are social media links with icons ease in once hover over to captivate users.
 
 2. As a first time user, I want to be able to navigate through the site with ease.
     * On the top of the page upon entry are links that directly informed users what each pages do and contents that might be found in them.
-    * The Navigation bar is fixed thereby making it easier for users to see the link at all times and feel trapped and the need to scroll all through to the top before they can leave current page
-    * On the recommendation page which is a long page,a scrollspy is added to the top and made fixed to enable users to scroll to different sections of the page by just a click and returning to the home page by clicking the logo at the top which is fixed and visible always.
+    * The Navigation bar is fixed thereby making it easier for users to see the links at all times and not feel trapped and the need to scroll all through to the top before they can leave current page
+    * On the recommendation page which is a long page, smaller links is made available at start of each section just making users a click away from other sections 
     * The foot of the page has links that takes the user outside the window they are working and this is made so users can return to the site without having to search again.
 
 3. As a first time user, I want to be able to make recommendations easily without typing too much.
     * Upon entry, there is a call to action button visibly placed on the background image asking users to make recommendations. This button leads to a page where there is a form to be filled.
-    * The form is designed make it easier for users to recommend easily by just typing in one field and clicking to fill others.
-    * After filling the required field in the form and the button is clicked, the page is refreshed and the user can use the navigation links to go to any other desired page.
+    * The form is designed to make it easier for users to recommend easily by just typing in one field and clicking to fill others.
+    * After filling the required field in the form and the submit button is clicked, the page is refreshed and the user can use the navigation links to go to any other desired page.
 
 4. I want to be able to contact or follow the site owner on social media for any questions or update.
     * At the foot of all pages is a list of social media icons that lead the user to the social media page of the site
 
 ### Returning Visitor Goals
 1. As a returning user, I want to be able to see new movie suggestions weekly on site.
-    * On returning to the page, the user can go to the movies of the week page by clicking on the navigation link and it will take the user to the weekly edited page.
+    * On returning to the page, the user can go to the movies of the week page by clicking on the navigation link and it will take the user to the weekly edited page of the website.
+
+2. I want to be able to recommend movies and be able to ask how my recommendations are used.
+    * The home page has a little captivating box which asks users if they would love to recommend a movie. This is visibly and neatly placed on the home page and the same button when clicked leads to a form for recommendation.
+    * On every page is a link that useers can click to display a recommendation form to suggest movies for others. The form is made simply, easy and quick to fill.
+
+3. As a returning user, I want to be able to watch suggested movies of the week trailers.
+    * On all pages is a link that leads users to the page where suggested movies for that week are.
+    * Each movie trailers have controls that enables users to play and pause the movie trailers. 
