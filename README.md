@@ -1,5 +1,5 @@
 # MILESTONE PROJECT ONE
-![Movie Suggesters Mockup Images](assets/images/mockuo image.png)
+ ![Responsiveness](assets/images/Mockuo image.png)
 
 ## TABLE OF CONTENT
 * Title
@@ -125,9 +125,14 @@
 * W3C CSS Validation Service
  The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
  
-* ![W3C CSS Validation](assets/images/css.png)
-* ![Index.HTML Validation](assets/images/index.html.png)
-* ![Recommendation page validation](assets/images/movie_app.png)
+### CSS Validation
+![W3C CSS Validation](assets/images/css.png)
+
+### Home page html validation
+![Index.HTML Validation](assets/images/index.html.png)
+
+### Recommendation page validation
+![Recommendation page validation](assets/images/movie_app.png)
 
 
 
@@ -172,11 +177,20 @@
 
  
 ### Browser Validation
-- Chrome - [test image](assets/images/Chrome.png)
-- Edge - [test image](assets/images/Edge.png)
-- Opera - [test image](assets/images/Opera.png)
-- Firefox - [test image](assets/images/firefox.png)
-- Internet Explorer - [test image](assets/image/Explorer.png)
+#### Chrome Browser
+![chrome browser](assets/images/Chrome.png)
+
+#### Microsoft Edge
+![Edge browser](assets/images/Edge.png)
+
+#### Opera Browser
+![Opera browser](assets/images/Opera.png)
+
+#### Firefox Browser
+![Firefox browser](assets/images/firefox.png)
+
+#### Internet Browser
+![Internet browser](assets/image/Explorer.png)
 
 ### Lighthouse Auditing
 - Home Page - [test image](assets/images/Home-page.png)
