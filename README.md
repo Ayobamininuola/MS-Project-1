@@ -1,5 +1,5 @@
 # MILESTONE PROJECT ONE
-![Movie Suggesters Mockup Images](assets/images/index.html.png)
+![Movie Suggesters Mockup Images](assets/images/mockuo image.png)
 
 ## TABLE OF CONTENT
 * Title
@@ -118,13 +118,16 @@
 * [Movies of the week Wireframe](https://www.figma.com/file/j3KvF6XbDaCBKP6VMacxzL/Movies-of-the-week?node-id=0%3A1)
 * [Form Wireframe](https://www.figma.com/file/nNciNsMGEe0kidD0gCGEQm/Form?node-id=0%3A1)
 
-## Testing
+
+# Testing
+
 * W3C Markup Validation Service
 * W3C CSS Validation Service
  The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
  
-* [W3C CSS Validation](https://jigsaw.w3.org/css-validator/validator).
-* [Index.HTML Validation](https://validator.w3.org/nu/#textarea).
+* ![W3C CSS Validation](assets/images/css.png)
+* ![Index.HTML Validation](assets/images/index.html.png)
+* ![Recommendation page validation](assets/images/movie_app.png)
 
 
 
@@ -161,3 +164,23 @@
 3. As a returning user, I want to be able to watch suggested movies of the week trailers.
     * On all pages is a link that leads users to the page where suggested movies for that week are.
     * Each movie trailers have controls that enables users to play and pause the movie trailers. 
+
+## Further Testing
+ * The website was tested on Google Chrome, Microsoft Edge, Opera, Internet Explorer and Safari Browsers
+ * The website was tested on all browsers using different devices; Laptop, Tablets, Androids(Samsung S10+, Samsung S20), iphone7 and iPhoneX.
+ * Friends and families were asked to check the website on various devices with different browsers to ensure all links are functioning well.
+
+ 
+### Browser Validation
+- Chrome - [test image](assets/images/Chrome.png)
+- Edge - [test image](assets/images/Edge.png)
+- Opera - [test image](assets/images/Opera.png)
+- Firefox - [test image](assets/images/firefox.png)
+- Internet Explorer - [test image](assets/image/Explorer.png)
+
+### Lighthouse Auditing
+- Home Page - [test image](assets/images/Home-page.png)
+- Recommendation Page - [test image](assets/images/recommendation.png)
+- Movies of the week Page - [test image](assets/images/movies_of_the_week.png)
+- Suggest Page - [test image](assets/images/suggest.png)
+
