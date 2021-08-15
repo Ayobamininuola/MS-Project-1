@@ -1,5 +1,6 @@
 # MILESTONE PROJECT ONE
- ![Responsiveness](assets/images/Mockuo image.png)
+### MOVIE SUGGESTERS
+![Responsiveness](assets/images/Mock-up.png)
 
 ## TABLE OF CONTENT
 * Title
@@ -17,8 +18,8 @@
 ## User Experience
 
 ### Ideal users of the website are:
-1. Potential movie lovers
-2. 
+* Movie lovers
+ 
 
 ### Project Goals
  The aim of creating this website is to make it easier for movie lovers to see recommended movies and make the choice of what to watch and where by picking movies that are suggested as worth-watching movies by other movie lovers.
@@ -119,7 +120,8 @@
 * [Form Wireframe](https://www.figma.com/file/nNciNsMGEe0kidD0gCGEQm/Form?node-id=0%3A1)
 
 
-# Testing
+
+## Testing
 
 * W3C Markup Validation Service
 * W3C CSS Validation Service
@@ -132,7 +134,16 @@
 ![Index.HTML Validation](assets/images/index.html.png)
 
 ### Recommendation page validation
-![Recommendation page validation](assets/images/movie_app.png)
+![Recommendation page validation](assets/images/Movie_app.png)
+
+
+## Issues and Bugs
+
+**Background-image bug** - While testing the site with different browsers, Internet Explorer couldn't load all background images. In researching the cause online and using the Dev tools, the developer discovered that setting the backgroundd image this way{html:background-image} was making images to not respond and same was changed.
+
+**Footer bug** - The footer whenever the orientation of the device is changed was overlapping with the contents in section. A mini project done in Bootstrap in Code Institute course(Rosie-s-resume) was revised and steps followed to solve the bug
+
+**Suggest a movie form** - Select option(Second field on the form)could not be made a required field. In researching, a Bootstrap components was found and used to resolve the issue.
 
 
 
@@ -190,11 +201,81 @@
 ![Firefox browser](assets/images/firefox.png)
 
 #### Internet Browser
-![Internet browser](assets/image/Explorer.png)
+![Internet browser](assets/images/Explorer.png)
 
 ### Lighthouse Auditing
-- Home Page - [test image](assets/images/Home-page.png)
-- Recommendation Page - [test image](assets/images/recommendation.png)
-- Movies of the week Page - [test image](assets/images/movies_of_the_week.png)
-- Suggest Page - [test image](assets/images/suggest.png)
+### Recommended changes by Lighthouse could not be effected as at the time this project was submitted, it will be looked into in the future.
 
+#### Home page lighthouse
+![Home Page](assets/images/Home-page.png)
+
+#### Recommendation Page lighthouse
+![Recommendation Page](assets/images/recommendation.png)
+
+#### Movies of the week Page lighthouse
+![Movies of the week Page image](assets/images/movies_of_the_week.png)
+
+#### Suggest Page lighthouse
+![Suggest Page image](assets/images/suggest.png)
+
+## DEPLOYMENT
+
+### Deploying on GitHub Pages
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/KryanLive "Link to GitHub Repo").
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the "GitHub Pages" section.
+5. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
+6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+7. Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
+
+
+### Forking the Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/Ayobamininuola/MS-Project-1 "Link to GitHub Repo").
+3. At the top of the repository, on the right side of the page, select "Fork"
+4. You should now have a copy of the original repository in your GitHub account.
+
+### Creating a Clone
+How to run this project locally:
+1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/ "Link to Gitpod Browser extension download") Extension for Chrome.
+2. After installation, restart the browser.
+3. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/Ayobamininuola/MS-Project-1 "Link to GitHub Repo").
+5. Click the green "GitPod" button in the top right corner of the repository.
+This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
+
+How to run this project within a local IDE, such as VSCode:
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/Ayobamininuola/MS-Project-1 "Link to GitHub Repo").
+3. Under the repository name, click "Clone or download".
+4. In the Clone with HTTPs section, copy the clone URL for the repository.
+5. In your local IDE open the terminal.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. Type 'git clone', and then paste the URL you copied in Step 3.
+```
+git clone https://github.com/USERNAME/REPOSITORY
+```
+8. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository "Link to GitHub troubleshooting")
+
+
+## Credits
+
+### Content
+* Movie descriptions and details were sourced from Movie Apps(Netflix, Disney+ and Amazon Prime video), [imDb](https://www.imdb.com/?ref_=nv_home) and the developer.
+* The link Entertainment gossips at the foot of all pages is linked to [Entertainment Daily](https://www.entertainmentdaily.co.uk/news/).
+
+### Media
+* Some of the Pictures used througout the project were from [Pexels](https://www.pexels.com/) and also form wiki(all referenced within the project alongside the pictures).
+* Videos used in the project are downloaded free from [HD-trailers](http://www.hd-trailers.net/). 
+
+### Acknowledgment
+- I would like to thank my friends and family for their valued opinions and critic during the process of design and development.
+- I would like to thank my mentor, Seun, for her invaluable help and guidance throughout the process.
