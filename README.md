@@ -1,4 +1,5 @@
 # MILESTONE PROJECT ONE
+![Movie Suggesters Mockup Images](assets/images/index.html.png)
 
 ## TABLE OF CONTENT
 * Title
