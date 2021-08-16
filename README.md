@@ -1,6 +1,6 @@
 # MILESTONE PROJECT ONE
 ### MOVIE SUGGESTERS
-![Responsiveness](assets/images/Mock-up.png)
+![Responsiveness](assets/images/mockup.png)
 
 ## TABLE OF CONTENT
 1. [Title](#Title)
@@ -11,23 +11,24 @@
     * [Developer's Goals](#Developer's-Goals)
     * [First time user Goals](#First-time-user-Goals)
     * [Returning Visitor Goals](#Returning-Visitor-Goals)
-4. [Design Choices](#Design-Choices)
-5. [Technologies Used](#Technologies-Used)
-6. [Features](#Features)
+4. [Development Planes](#Development-Planes)
+5. [Design Choices](#Design-Choices)
+6. [Technologies Used](#Technologies-Used)
+7. [Features](#Features)
     * [Design Features](#Design-Features)
     * [Existing Features](#Existing-Features)
     * [Features to Implement in the future](#Features-to-Implement-in-the-future)
-7. [Testing](#Testing)
+8. [Testing](#Testing)
     * [Testing User Stories from User Experience (UX) Section](#Testing-User-Stories-from-User-Experience-(UX)-Section)
     * [Further Testing](#Further-Testing)
     * [Browser Validation](#Browser-Validation)
     * [Lighthouse Auditing](#Lighthouse-Auditing)
-8. [Issues and Bugs](#Issues-and-Bugs)
-9. [Deployment](#Deployment) 
-10. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
-11. [Forking the Repository](#Forking-the-Repository)
-12. [Creating a Clone](#Creating-a-Clone)
-13. [Credits](#Credits)
+9. [Issues and Bugs](#Issues-and-Bugs)
+10. [Deployment](#Deployment) 
+11. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
+12. [Forking the Repository](#Forking-the-Repository)
+13. [Creating a Clone](#Creating-a-Clone)
+14. [Credits](#Credits)
 
 ## Title
  Movie Suggesters
@@ -65,6 +66,65 @@
 * I want to be able to recommend movies and be able to ask how my recommendations are used.
 * As a returning user, I want to be able to watch suggested movies of the week trailers
 
+## Development Planes
+- The site was designed by the developer and was inspired by developers experience and interaction with friends in finding it difficult to pick a movie that is worth watching on Movie Apps because there are hundreds of movies to pick from and cannot know which one to pick. The site was created having in mind users experience on other sites and meeting their needs. 
+
+
+### Strategy
+- The website will focus on the following
+    * New movie lovers
+    * Existing movie lovers
+    * Age 18 and above
+    * Mostly UK/EU based users though not limited
+
+- The website needs **users** to be able to:
+    * See recommended movies grouped in a selected class
+    * Recommend movies to others
+    * Watch movie trailers
+    * See entertainment news
+
+- The website needs the **developer** to be able to:
+    * Upload movie trailers weekly
+    * Collect recommended movies by users
+    * Filter the recommendation page regularly using users recommendations
+
+
+### Scope
+A scope was defined in order to clearly identify what needed to be done in order to align features with the strategy previously defined.
+- **Content Requirements**
+     - The user will be looking for:
+          - Grouped recommended movies
+          - Movie trailers
+          - Recommend movie to watch
+          - Entertainment news
+          - Social Links
+        
+- **Functionality Requirements**
+     - The user will be able to:
+          - Easily navigate through the site in order to find the information they want
+          - Be able to find links to external sites in order to:
+               - To watch recommended movies
+               - To read entertainment news
+
+### Structure
+- The site was carefully and logically designed and arranged in a tree that enables users to navigate through the site with ease.
+
+### Skeleton
+- Wireframe was created using [Figma](https://www.figma.com/file/xNpRfVbEvIAkqscHt548B1/Movie-Suggesters?node-id=0%3A1) having in mind the users needs to be met.
+
+##### Homepage Wireframe
+![Home page wireframe](assets/images/homepage-wireframe.png)
+
+##### Recommendation page wireframe
+![Recommendation page wireframe](assets/images/secondpage-wireframe.png)
+
+##### Movies of the week Wireframe
+![Movies of the week Wireframe](assets/images/thirdpage-wireframe.png)
+
+##### Suggest a movie page Wireframe
+![Suggest a movie page Wireframe](assets/images/form-wireframe.png)
+               
+
  ## Design Choices
  - The site is made for movie lovers to easily see few suggested movies that can be watch at their leisure time. The design choice is made putting in mind that a movie settings is expected to be cool.
 
@@ -86,8 +146,6 @@
  **Icons:**
 * All icons used are straight forward and not in any way misleading or confusing.       
  
-## Wireframing
-* The wireframe was created using Figma.[Wireframe](https://www.figma.com/file/xNpRfVbEvIAkqscHt548B1/Movie-Suggesters?node-id=0%3A1)
 
 ## Technologies Used
 
@@ -97,37 +155,37 @@
 
 ### Frameworks, Libraries & Programs Used
 1. [Bootstrap 4.6.x](https://getbootstrap.com/docs/4.6/getting-started/introduction/):
-    Bootstrap was used for responsiveness of the site and some advanced coding
+    Bootstrap was used for responsiveness of the site and some advanced coding.
 
 2. Hover.css:
- Hover.css was used on Social media footer icon to have a transition effect when hovered over
+ Hover.css was used on Social media footer icon to have a transition effect when hovered over.
 
 3. [Font Awesome](https://fontawesome.com/):
     Font awesome was used to import icons used for social media on all pages.
 
 4. [Google Fonts](https://fonts.google.com/):
-    Google Fonts was used to import "Roboto and Satisfy" font family into style.css which were used throughout the project     
+    Google Fonts was used to import "Roboto and Satisfy" font family into style.css which were used throughout the project.     
 
 5. [Javascript](https://getbootstrap.com/docs/4.6/getting-started/javascript/):
-    Javascript was used as part of Bootstrap to make Navabar toogler used on all pages as well ad scrollspy used on recommendations pages
+    Javascript was used as part of Bootstrap to make Navbar toogler used on all pages as well as scrollspy used on recommendations pages.
 
 6. [Git](https://gitpod.io/workspaces):
-    Git was used for version control to push and commit to Github
+    Git was used for version control to push and commit to Github.
 
 7. [GitHub](https://github.com/):
-    GitHub is used to store the project code
+    GitHub is used to store the project code.
 
 8. [Tinypng](https://tinypng.com/):
-    Tinypng was used to compress images used throughout the project
+    Tinypng was used to compress images used throughout the project.
 
 9. [Pexels](https://www.pexels.com/):
     Free and high resolution images downloaded from the site were used in the project.
 
 10. Wiki:
-    Other images used in the project were from wiki site with sources referenced in the project.              
+    Other images used in the project were from wiki site with sources referenced in the project. (Because of the quantity, sources could not be provided here).              
 
 11. [HD-trailers](http://www.hd-trailers.net/):
-    All videos used in the project were dwonloaded from the above site free.
+    All videos used in the project were downloaded from the above site free.
     
 12. Figma:
     Figma was used to create Wifeframes for the project. See here:
@@ -151,19 +209,19 @@ Each page of the website features a consistent responsive navigational system:
   <dt><a href="index.html" target="_blank" alt="Movie Suggesters Home Page">Home Page</a></dt>
   <dd>The Home page section appears same on all devices with the text above and the Call to action button below it.
      <ul>
-          <li><strong>Background image</strong> - The background image was set to be 100% of the viewing port to captivate users. The image was chosen as it represents a good and calm outdoor cinema that speaks to users even before checking the contents. The Image does not shrink or stretch on all devices
+          <li><strong>Background image</strong> - The background image was set to be 100% of the viewing port to captivate users. The image was chosen as it represents a good and calm outdoor cinema that speaks to users even before checking the contents. The Image does not shrink or stretch on all devices.
           </li>
-          <li><strong>Recommend Container</strong> - Nicely placed below the description text on the Home page with a transparent box over the background image. This was design to increase and encourage users to recommend movies since it is the first page to be seen upon opening site. In this, there is a <strong>call to action</strong> button linking the <strong>suggest a movie page</strong> where users can fill out the form to recommend movies.
+          <li><strong>Recommend Container</strong> - Nicely placed below the description text on the Home page with a transparent box over the background image. This was designed to increase and encourage users to recommend movies since it is the first page to be seen upon opening site. In this, there is a <strong>call to action</strong> button linking the <strong>suggest a movie page</strong> where users can fill out the form to recommend movies.
           </li>
      </ul>
   </dd>
 
   <dt><a href="movie-app.html" target="_blank" alt="Movie App Page">Movie App Page</a></dt>
-  <dd>The movie app page is one of the three sub pages of recommendation page. It is designed recommending movies to users based on the App where it can be watched.  
+  <dd>The movie app page is one of the three sub pages of recommendation page, the other two which are <strong>Genres and Production year</strong>have similar set-up and design. It is designed recommending movies to users based on the App where it can be watched.  
      <ul>
-          <li><strong>Images</strong> - On a small screen the images are set to be stacked above the text. On a larger screen however, they appear taking 1/3rd of the page nicely placed on the left side of the screen
+          <li><strong>Images</strong> - On a small screen the images(Movie Posters) are set to be stacked above the text. On a larger screen however, they appear taking 1/3rd of the page nicely placed on the left side of the screen
           </li>
-          <li><strong>Card text</strong> - Card texts is the section that contains description of the images and a small link. On small screens, the texts appear below the images they are describing. On larger screens, they occupy the remaining 2/3rd of the page appearing on the right side to the images. 
+          <li><strong>Card text</strong> - Card texts is the section that contains description of the images and a small link. On small screens, the texts appear below the images they are describing. On larger screens, they occupy the remaining 2/3rd of the page appearing on the right side of the images. 
           </li>
           <li><strong>Navigation links</strong> - On movie app page is a set of links that is set to appear at the middle of the page, it contains links that leads to other sections of the same page since it's a long page. The links have a border color similar to the Headings of the sections to maintain the continuity on the page. The links are stacked on each other at the center of the page on a small screen and spreads out as the screen widens.
           </li>
@@ -187,9 +245,9 @@ Each page of the website features a consistent responsive navigational system:
   <dt><a href="suggest-a-movie.html" target="_blank" alt="Suggest a Movie Page">Suggest a Movie</a></dt>
   <dd> The form appears the same on all pages with the box smaller on small screens and wider on larger screens.
    <ul> 
-          <li><strong>Background Image</strong> - The background image is set to be 100% as other background images. It is the same as the Home page background image putting in mind that the two pages are linked. The call to action button on the Home page leads to this page and the idea of making it similar it to give users the feel that they are still in the same place performing different action
+          <li><strong>Background Image</strong> - The background image is set to be 100% as other background images. It is the same as the Home page background image putting in mind that the two pages are linked. The call to action button on the Home page leads to this page and the idea of making it similar is to give users the feel that they are still in the same place performing different action
           </li>
-          <li><strong>Form Container</strong> - The container was set to be transparently fitted on the home page. It appears smaller on smaller screen but slightly higher on biggers screens.
+          <li><strong>Form Container</strong> - The container was set to be transparently fitted on the home page. It appears smaller on smaller screen but slightly higher on bigger screens.
           </li>
           <li><strong>Form fields</strong> - The fields on the form aside one were all made required and it also allows users to just click aside the first field. This click options is to encourage users to use the form and not waste time on it. It has a submit button at the end which refreshes the page when clicked.
           </li>
@@ -203,7 +261,7 @@ Each page of the website features a consistent responsive navigational system:
 - **Header Logo** - There is a logo that appears on all pages. Clicking the logo will return the users to the home page.
 - **Header Navigation Bar** - This also appears on all pages to enable users to easily navigate through the pages on the site.
 - **Social Icons and Entertainment link** - This appears at the foot of all pages. The social media icons do not open and are not linked to anybody's social media page but will however take the users to the social media page where they can login. The Entertainment Gossip link when clicked takes the user to another tab with entertainment daily news(This entertainment news site is not owned by the developer).
-- **Dropdown recommendation link** - This appears as Recommendations with a little arrow signifying dropdown items. When clicked, the dropdowm items appear and they can be clicked to link user to the pages clicked. It has 3 dropdown items which are <strong>Movie Apps, Genres and Production year</strong>
+- **Dropdown recommendation link** - This appears as Recommendations link with a little arrow signifying dropdown items. When clicked, the dropdowm items appear and they can be clicked to link user to the pages clicked. It has 3 dropdown items which are <strong>Movie Apps, Genres and Production year</strong>.
 - **Suggest a movie form** - This is a form that enables users to recommend movies. The fields are simple to use and quick.
 
 ### Features to Implement in the future
@@ -219,7 +277,7 @@ Each page of the website features a consistent responsive navigational system:
 
 * W3C Markup Validation Service
 * W3C CSS Validation Service
- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+    - The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
  
 ### CSS Validation
 ![W3C CSS Validation](assets/images/css.png)
@@ -241,10 +299,10 @@ Each page of the website features a consistent responsive navigational system:
     * At the foot of the page are social media links with icons ease in once hover over to captivate users.
 
 2. As a first time user, I want to be able to navigate through the site with ease.
-    * On the top of the page upon entry are links that directly informed users what each pages do and contents that might be found in them.
-    * The Navigation bar is fixed thereby making it easier for users to see the links at all times and not feel trapped and the need to scroll all through to the top before they can leave current page
-    * On the recommendation page which is a long page, smaller links is made available at start of each section just making users a click away from other sections 
-    * The foot of the page has links that takes the user outside the window they are working and this is made so users can return to the site without having to search again.
+    * On the top of the page upon entry are links that directly inform users what each pages do and contents that might be found in them.
+    * The Navigation bar is fixed thereby making it easier for users to see the links at all times and not feel trapped and the need to scroll all through to the top before they can leave current page.
+    * On the recommendation page which is a long page, smaller links is made available at start of each section just making users a click away from other sections. 
+    * The foot of the page has links that takes the user outside the tab they are working and this is made so users can return to the site without having to search again.
 
 3. As a first time user, I want to be able to make recommendations easily without typing too much.
     * Upon entry, there is a call to action button visibly placed on the background image asking users to make recommendations. This button leads to a page where there is a form to be filled.
@@ -252,7 +310,7 @@ Each page of the website features a consistent responsive navigational system:
     * After filling the required field in the form and the submit button is clicked, the page is refreshed and the user can use the navigation links to go to any other desired page.
 
 4. I want to be able to contact or follow the site owner on social media for any questions or update.
-    * At the foot of all pages is a list of social media icons that lead the user to the social media page of the site
+    * At the foot of all pages is a list of social media icons that lead the user to the social media page of the site. However because the site is not real, the links do not lead to the site's social media pages as at this time.
 
 ### Returning Visitor Goals
 1. As a returning user, I want to be able to see new movie suggestions weekly on site.
@@ -260,7 +318,7 @@ Each page of the website features a consistent responsive navigational system:
 
 2. I want to be able to recommend movies and be able to ask how my recommendations are used.
     * The home page has a little captivating box which asks users if they would love to recommend a movie. This is visibly and neatly placed on the home page and the same button when clicked leads to a form for recommendation.
-    * On every page is a link that useers can click to display a recommendation form to suggest movies for others. The form is made simply, easy and quick to fill.
+    * On every page is a link that users can click to display a recommendation form to suggest movies for others. The form is made simply, easy and quick to fill.
 
 3. As a returning user, I want to be able to watch suggested movies of the week trailers.
     * On all pages is a link that leads users to the page where suggested movies for that week are.
@@ -308,7 +366,7 @@ Each page of the website features a consistent responsive navigational system:
 
 **Background-image bug** - While testing the site with different browsers, Internet Explorer couldn't load all background images. In researching the cause online and using the Dev tools, the developer discovered that setting the backgroundd image this way{html:background-image} was making images to not respond and same was changed.
 
-**Footer bug** - The footer whenever the orientation of the device is changed was overlapping with the contents in section. A mini project done in Bootstrap in Code Institute course(Rosie-s-resume) was revised and steps followed to solve the bug
+**Footer bug** - The footer whenever the orientation of the device is changed was overlapping the contents in section. A mini project done in Bootstrap in Code Institute course(Rosie-s-resume) was revised and steps followed to solve the bug
 
 **Suggest a movie form** - Select option(Second field on the form)could not be made a required field. In researching, a Bootstrap components was found and used to resolve the issue.
 
@@ -366,11 +424,11 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ### Content
 * Movie descriptions and details were sourced from Movie Apps(Netflix, Disney+ and Amazon Prime video), [imDb](https://www.imdb.com/?ref_=nv_home) and the developer.
-* The link Entertainment gossips at the foot of all pages is linked to [Entertainment Daily](https://www.entertainmentdaily.co.uk/news/).
+* The link Entertainment gossips at the foot of all pages is linked to [Entertainment Daily News](https://www.entertainmentdaily.co.uk/news/).
 
 ### Media
-* Some of the Pictures used througout the project were from [Pexels](https://www.pexels.com/) and also fromm wiki(all referenced with the links within the project alongside the pictures).
-* Videos used in the project are downloaded free from [HD-trailers](http://www.hd-trailers.net/). 
+* Some of the Pictures used througout the project were downloaded free from [Pexels](https://www.pexels.com/) and also from wiki(all referenced with the links within the project alongside the pictures).
+* Videos used in the project were downloaded free from [HD-trailers](http://www.hd-trailers.net/). 
 
 ### Acknowledgment
 - I would like to thank my friends and family for their valued opinions and critic during the process of design and development.
