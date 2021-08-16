@@ -273,6 +273,10 @@ Each page of the website features a consistent responsive navigational system:
      - **Feature** - This allows frequent users to see specific movies recommended by other users.
      - **Reason for not featuring in this release** - Time factor.
 
+ - **More Movie Apps**
+     - **Feature** - This will include more movie apps in the Movie apps pages as the present is limited.
+     - **Reason for not featuring in this release** - Other movie apps the developer wanted to include are not available in developer's region at the time of developing the site.
+
 ## Testing
 
 * W3C Markup Validation Service
