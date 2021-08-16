@@ -2,6 +2,8 @@
 ### MOVIE SUGGESTERS
 ![Responsiveness](assets/images/mockup.png)
 
+[View the live project here](https://ayobamininuola.github.io/MS-Project-1/)
+
 ## TABLE OF CONTENT
 1. [Title](#Title)
 2. [Introduction](#Introduction)
