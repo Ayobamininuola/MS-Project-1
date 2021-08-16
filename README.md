@@ -3,11 +3,31 @@
 ![Responsiveness](assets/images/Mock-up.png)
 
 ## TABLE OF CONTENT
-* Title
-* Introduction
-* Technologies
-* Set-up
-* Deployment  
+1. [Title](#Title)
+2. [Introduction](#Introduction)
+3. [User Experience](#User-Experience)
+ * [Project Goals](#Project-Goals)
+ * [Users' Goals](#Users'-Goals)
+ * [Developer's Goals](#Developer's-Goals)
+ * [First time user Goals](#First-time-user-Goals)
+ * [Returning Visitor Goals](#Returning-Visitor-Goals)
+4. [Design Choices](#Design-Choices)
+5. [Technologies Used](#Technologies-Used)
+6. [Features](#Features)
+ * [Design Features](#Design-Features)
+ * [Existing Features](#Existing-Features)
+ * [Features to Implement in the future](#Features-to-Implement-in-the-future)
+7. [Testing](#Testing)
+ * [Testing User Stories from User Experience (UX) Section](#Testing-User-Stories-from-User-Experience-(UX)-Section)
+ * [Further Testing](#Further-Testing)
+ * [Browser Validation](#Browser-Validation)
+ * [Lighthouse Auditing](#Lighthouse-Auditing)
+8. [Issues and Bugs](#Issues-and-Bugs)
+9. [Deployment](#Deployment) 
+10. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
+11. [Forking the Repository](#Forking-the-Repository)
+12. [Creating a Clone](#Creating-a-Clone)
+13. [Credits](#Credits)
 
 ## Title
  Movie Suggesters
@@ -17,9 +37,6 @@
 
 ## User Experience
 
-### Ideal users of the website are:
-* Movie lovers
- 
 
 ### Project Goals
  The aim of creating this website is to make it easier for movie lovers to see recommended movies and make the choice of what to watch and where by picking movies that are suggested as worth-watching movies by other movie lovers.
@@ -121,6 +138,83 @@
 
 
 
+## Features
+
+### Design Features
+Each page of the website features a consistent responsive navigational system:
+- The **Header** contains a neatly placed **logo** in the top left side of all pages and the logo when clicked redirect users to home page. On the top right side just on the same plain with the logo(text) is the **navigation bar** which appears as a button on smaller screens and spreads out right next to the logo in bigger screens.
+- One of the **navigation links** has a dropdown that only appears when clicked and each leads to another page.
+- On the recommendation page which is a long page, sets of links to other sections of the same page was provided to allow users navigate through different sections of the page with ease.
+- There is a **Footer** that contains the appropriate **social media icons** linking users to the social media that each represents but not anyone's media page. It also contains a link to entertainment news page. 
+
+<dl>
+  <dt><a href="index.html" target="_blank" alt="Movie Suggesters Home Page">Home Page</a></dt>
+  <dd>The Home page section appears same on all devices with the text above and the Call to action button below it.
+     <ul>
+          <li><strong>Background image</strong> - The background image was set to be 100% of the viewing port to captivate users. The image was chosen as it represents a good and calm outdoor cinema that speaks to users even before checking the contents. The Image does not shrink or stretch on all devices
+          </li>
+          <li><strong>Recommend Container</strong> - Nicely placed below the description text on the Home page with a transparent box over the background image. This was design to increase and encourage users to recommend movies since it is the first page to be seen upon opening site. In this, there is a <strong>call to action</strong> button linking the <strong>suggest a movie page</strong> where users can fill out the form to recommend movies.
+          </li>
+     </ul>
+  </dd>
+
+  <dt><a href="movie-app.html" target="_blank" alt="Movie App Page">Movie App Page</a></dt>
+  <dd>The movie app page is one of the three sub pages of recommendation page. It is designed recommending movies to users based on the App where it can be watched.  
+     <ul>
+          <li><strong>Images</strong> - On a small screen the images are set to be stacked above the text. On a larger screen however, they appear taking 1/3rd of the page nicely placed on the left side of the screen
+          </li>
+          <li><strong>Card text</strong> - Card texts is the section that contains description of the images and a small link. On small screens, the texts appear below the images they are describing. On larger screens, they occupy the remaining 2/3rd of the page appearing on the right side to the images. 
+          </li>
+          <li><strong>Navigation links</strong> - On movie app page is a set of links that is set to appear at the middle of the page, it contains links that leads to other sections of the same page since it's a long page. The links have a border color similar to the Headings of the sections to maintain the continuity on the page. The links are stacked on each other at the center of the page on a small screen and spreads out as the screen widens.
+          </li>
+     </ul>
+  </dd>
+
+  <dt><a href="movies.html" target="_blank" alt="Movies of the Week Page">Movies of the Week Page</a></dt>
+  <dd>The page has similar Header and footer as with other pages.
+     <ul> 
+          <li><strong>Background Image</strong> - The background image was set to have a height of 100% and a slightly dark image was chosen to set the cinematic atmosphere. The image appears the same on all screens
+          </li>
+          <li><strong>Videos</strong> - The videos was set to be centrally placed at the top of the text in all screens. It has control that allows users to play, pause and control the volume. It was set to take 60% of view port thereby allowing it to adjust on all screens without looking streched.
+          </li>
+          <li><strong>Video texts</strong> - Underneath the video is a text with the details of the video. It appears underneath the video on all screens
+          </li>
+          </ul>
+     </ul>
+
+  </dd>
+
+  <dt><a href="suggest-a-movie.html" target="_blank" alt="Suggest a Movie Page">Suggest a Movie</a></dt>
+  <dd> The form appears the same on all pages with the box smaller on small screens and wider on larger screens.
+   <ul> 
+          <li><strong>Background Image</strong> - The background image is set to be 100% as other background images. It is the same as the Home page background image putting in mind that the two pages are linked. The call to action button on the Home page leads to this page and the idea of making it similar it to give users the feel that they are still in the same place performing different action
+          </li>
+          <li><strong>Form Container</strong> - The container was set to be transparently fitted on the home page. It appears smaller on smaller screen but slightly higher on biggers screens.
+          </li>
+          <li><strong>Form fields</strong> - The fields on the form aside one were all made required and it also allows users to just click aside the first field. This click options is to encourage users to use the form and not waste time on it. It has a submit button at the end which refreshes the page when clicked.
+          </li>
+          </ul>
+  </dd>
+  
+</dl>
+
+ 
+### Existing Features
+- **Header Logo** - There is a logo that appears on all pages. Clicking the logo will return the users to the home page.
+- **Header Navigation Bar** - This also appears on all pages to enable users to easily navigate through the pages on the site.
+- **Social Icons and Entertainment link** - This appears at the foot of all pages. The social media icons do not open and are not linked to anybody's social media page but will however take the users to the social media page where they can login. The Entertainment Gossip link when clicked takes the user to another tab with entertainment daily news(This entertainment news site is not owned by the developer).
+- **Dropdown recommendation link** - This appears as Recommendations with a little arrow signifying dropdown items. When clicked, the dropdowm items appear and they can be clicked to link user to the pages clicked. It has 3 dropdown items which are <strong>Movie Apps, Genres and Production year</strong>
+- **Suggest a movie form** - This is a form that enables users to recommend movies. The fields are simple to use and quick.
+
+### Features to Implement in the future
+- **Movie trailers for recommended movies**
+     - **Feature** - The images on recommended page will have the movie poster which will flip to display trailers of the same movie when clicked.
+     - **Reason for not featuring in this release** - JavaScript needed to successfully embed videos and make it stop once the card is closed.
+ 
+ - **Community page**
+     - **Feature** - This allows frequent users to see specific movies recommended by other users.
+     - **Reason for not featuring in this release** - Time factor.
+
 ## Testing
 
 * W3C Markup Validation Service
@@ -135,15 +229,6 @@
 
 ### Recommendation page validation
 ![Recommendation page validation](assets/images/Movie_app.png)
-
-
-## Issues and Bugs
-
-**Background-image bug** - While testing the site with different browsers, Internet Explorer couldn't load all background images. In researching the cause online and using the Dev tools, the developer discovered that setting the backgroundd image this way{html:background-image} was making images to not respond and same was changed.
-
-**Footer bug** - The footer whenever the orientation of the device is changed was overlapping with the contents in section. A mini project done in Bootstrap in Code Institute course(Rosie-s-resume) was revised and steps followed to solve the bug
-
-**Suggest a movie form** - Select option(Second field on the form)could not be made a required field. In researching, a Bootstrap components was found and used to resolve the issue.
 
 
 
@@ -218,7 +303,18 @@
 #### Suggest Page lighthouse
 ![Suggest Page image](assets/images/suggest.png)
 
-## DEPLOYMENT
+
+## Issues and Bugs
+
+**Background-image bug** - While testing the site with different browsers, Internet Explorer couldn't load all background images. In researching the cause online and using the Dev tools, the developer discovered that setting the backgroundd image this way{html:background-image} was making images to not respond and same was changed.
+
+**Footer bug** - The footer whenever the orientation of the device is changed was overlapping with the contents in section. A mini project done in Bootstrap in Code Institute course(Rosie-s-resume) was revised and steps followed to solve the bug
+
+**Suggest a movie form** - Select option(Second field on the form)could not be made a required field. In researching, a Bootstrap components was found and used to resolve the issue.
+
+**Recommendation page bug** - The recommendation page was made to have dropdown using Bootstrap component. When clicked it displays the dropdown and the recommendation link itself does not lead to the linked page. After researching, the developer could write a code to overrule Bootstraps.
+
+## Deployment
 
 ### Deploying on GitHub Pages
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
@@ -273,7 +369,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 * The link Entertainment gossips at the foot of all pages is linked to [Entertainment Daily](https://www.entertainmentdaily.co.uk/news/).
 
 ### Media
-* Some of the Pictures used througout the project were from [Pexels](https://www.pexels.com/) and also form wiki(all referenced within the project alongside the pictures).
+* Some of the Pictures used througout the project were from [Pexels](https://www.pexels.com/) and also fromm wiki(all referenced with the links within the project alongside the pictures).
 * Videos used in the project are downloaded free from [HD-trailers](http://www.hd-trailers.net/). 
 
 ### Acknowledgment
